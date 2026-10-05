@@ -1,15 +1,14 @@
-﻿OBJECTID,park_name,irish_name,previous_n,address,type,type2,Shape_Leng,Shape_Area
+﻿OBJECTID,park_name,irish_name,previous_name,address,type,type2,Shape_Length,Shape_Area
 1,Ballawley Park, , , ,Local Park,Other,1614.816358846237790,88211.314931460336084
 2,Blackrock Park, , ,"Blackrock Park, Rock Road, Blackrock, Co. Dublin",Regional Park,Flagship,3236.799618199802353,114239.392912217663252
-3,Cabinteely Park, , ,"Cabinteely Park, Old Bray Road, Cabinteely, Dublin 18
-",Regional Park,Flagship,4256.915494394836060,392608.707833726599347
+3,Cabinteely Park, , ,"Cabinteely Park, Old Bray Road, Cabinteely, Dublin 18",Regional Park,Flagship,4256.915494394836060,392608.707833726599347
 4,Carysfort Park, , , ,Local Park,Other,1764.644699686067270,55622.082226049387828
 5,Clonkeen Park, , ,"Clonkeen Park, Deansgrange",District Park,Other,3356.501164947718280,150180.474934855010360
 6,Dodder Valley Park, , ,"Dodder Valley Park, Rathfarnham Dublin",District Park,Other,4612.643384570511444,78723.047794700571103
-7,Fitzsimons Wood Park,Binn Trí Charraig,Part of Three Rockl Mountain, ,Local Park,Other,1819.984006202315641,125895.542227418802213
+7,Fitzsimons Wood Park,Binn Trí Charraig,Part of Three Rock Mountain, ,Local Park,Other,1819.984006202315641,125895.542227418802213
 8,Killiney Hill Park,Cill Iníon Léinín,Victoria Hill,"Killiney Hill Park, Killiney Hill Road, Co. Dublin",Regional Park,Flagship,3265.790610267195916,445021.771255388681311
 9,Marlay Park, , ,"Marlay Park, Rathfarnham, Dublin 16",Regional Park,Flagship,4243.094243951862154,842595.179905722499825
-10,Deerpark, ,Glasthule Quarry,"Peoples Park, Park Road, Dun Laoghaire, Co. Dublin",District Park,Other,2106.310210177874069,134228.107960819121217
+10,Deerpark, ,,,District Park,Other,2106.310210177874069,134228.107960819121217
 11,Peoples Park, ,Glasthule Quarry,"Peoples Park, Park Road, Dun Laoghaire, Co. Dublin",Regional Park,Flagship,545.691357233125245,15902.741852922084945
 12,Shanganagh Regional Park, , , ,District Park,Flagship,4156.276637601124094,335489.182573379192036
 13,Fernhill Park & Gardens,,,Stepaside,Regional Park,Flagship,3418.411062423992917,321151.743161784368567
