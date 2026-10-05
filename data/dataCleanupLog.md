@@ -24,9 +24,11 @@
 
 **skateparks.csv:**
 
-* TODO
+* Fixed inconsistency in address
+* Removed pricing information from the "Info" column
+* *A phone number is missing*
 
 **footfallcount.csv:**
 
-* TODO
+* Formatted as datetime instead of string
 
