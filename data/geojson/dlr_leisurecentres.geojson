@@ -1,0 +1,137 @@
+{
+  "type" : "FeatureCollection",
+  "features" : [
+    {
+      "type" : "Feature",
+      "id" : 1,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -6.12997480954132,
+          53.246025192014635
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 1,
+        "name" : "Loughlinstown",
+        "full_name" : "DLR Leisure Loughlinstown",
+        "type" : "DLR Leisure Centre",
+        "ITM_X" : 724804.72709999979,
+        "ITM_Y" : 723371.47269999981,
+        "Address" : "Loughlinstown Dr, Dublin, A96 XP60",
+        "Phone" : "01 282 3344",
+        "Email" : "loughlinstown@dlrleisure.ie"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 2,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -6.1538436795733462,
+          53.287386770807686
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 2,
+        "name" : "Monkstown",
+        "full_name" : "DLR Leisure Monkstown",
+        "type" : "DLR Leisure Centre",
+        "ITM_X" : 723093.01420000009,
+        "ITM_Y" : 727931.74730000086,
+        "Address" : "Monkstown Ave, Monkstown, Dublin, A94 YD34",
+        "Phone" : "01 230 1458",
+        "Email" : "monkstown@dlrleisure.ie"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 3,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -6.2568319036492346,
+          53.282015537900591
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 3,
+        "name" : "Meadowbrook",
+        "full_name" : "DLR Leisure Meadowbrook",
+        "type" : "DLR Leisure Centre",
+        "ITM_X" : 716241.4439000003,
+        "ITM_Y" : 727161.6967999991,
+        "Address" : "Meadowbrook, Ballinteer, Co. Dublin, D16 HK83 ",
+        "Phone" : "01 299 5610",
+        "Email" : "meadowbrook@dlrleisure.ie"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 4,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -6.1909408888295321,
+          53.256736114464033
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 4,
+        "name" : "Ballyogan",
+        "full_name" : "Samuel Beckett Civic Campus",
+        "type" : "DLR Leisure Centre",
+        "ITM_X" : 720706.10730000027,
+        "ITM_Y" : 724458.42669999972,
+        "Address" : "Samuel Beckett Civic Campus, Ballyogan Road, Ballyogan, Dublin 18, D18 HT72",
+        "Phone" : "01 294 3880",
+        "Email" : "ballyogan@dlrleisure.ie"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 5,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -6.1341657278265149,
+          53.293786852994131
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 5,
+        "name" : "West Wood Club, Dun Laoghaire",
+        "full_name" : "West Wood Club, Dun Laoghaire",
+        "type" : "Other Leisure Centre",
+        "ITM_X" : 724386.32050000038,
+        "ITM_Y" : 728677.86700000055,
+        "Address" : "Pavillion Complex, UNIT 7, Marine Rd, Dún Laoghaire, CO, Co. Dublin, A96 A443",
+        "Phone" : "01 2801299",
+        "Email" : "infodunlaoghaire@westwood.ie"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 6,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -6.1946462309157875,
+          53.265031321234176
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 6,
+        "name" : "West Wood Club, Leopardstown",
+        "full_name" : "West Wood Club, Leopardstown Race Course",
+        "type" : "Other Leisure Centre",
+        "ITM_X" : 720435.58729999978,
+        "ITM_Y" : 725375.06350000016,
+        "Address" : "Leopardstown Race Course, Carmanhall and Leopardstown, Dublin 18, D18 C9V6",
+        "Phone" : "01 2893208",
+        "Email" : "infoleopardstown@westwood.ie"
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+﻿OBJECTID,name,full_name,type,ITM_X,ITM_Y,Address,Phone,Email
+1,Loughlinstown,DLR Leisure Loughlinstown,DLR Leisure Centre,724804.727099999785423,723371.472699999809265,"Loughlinstown Dr, Dublin, A96 XP60",01 282 3344,loughlinstown@dlrleisure.ie
+2,Monkstown,DLR Leisure Monkstown,DLR Leisure Centre,723093.014200000092387,727931.747300000861287,"Monkstown Ave, Monkstown, Dublin, A94 YD34",01 230 1458,monkstown@dlrleisure.ie
+3,Meadowbrook,DLR Leisure Meadowbrook,DLR Leisure Centre,716241.443900000303984,727161.696799999102950,"Meadowbrook, Ballinteer, Co. Dublin, D16 HK83 ",01 299 5610,meadowbrook@dlrleisure.ie
+4,Ballyogan,Samuel Beckett Civic Campus,DLR Leisure Centre,720706.107300000265241,724458.426699999719858,"Samuel Beckett Civic Campus, Ballyogan Road, Ballyogan, Dublin 18, D18 HT72",01 294 3880,ballyogan@dlrleisure.ie
+5,"West Wood Club, Dun Laoghaire","West Wood Club, Dun Laoghaire",Other Leisure Centre,724386.320500000379980,728677.867000000551343,"Pavillion Complex, UNIT 7, Marine Rd, Dún Laoghaire, CO, Co. Dublin, A96 A443",01 2801299,infodunlaoghaire@westwood.ie
+6,"West Wood Club, Leopardstown","West Wood Club, Leopardstown Race Course",Other Leisure Centre,720435.587299999780953,725375.063500000163913,"Leopardstown Race Course, Carmanhall and Leopardstown, Dublin 18, D18 C9V6",01 2893208,infoleopardstown@westwood.ie

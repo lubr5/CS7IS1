@@ -1,0 +1,47 @@
+{
+  "type" : "FeatureCollection",
+  "features" : [
+    {
+      "type" : "Feature",
+      "id" : 1,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -6.1529739607683682,
+          53.287557675337091,
+          0
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 1,
+        "Name" : "Monkstown Skatepark",
+        "Address" : "Bluepool centre, Monkstown, Dublin",
+        "Phone" : "01 230 1458",
+        "Info" : "Pay as You Go Prices: Adult \u20AC5, Child \u20AC3",
+        "ITM_X" : 723150.50569999963,
+        "ITM_Y" : 727952.25989999995
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 2,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -6.1904179147973553,
+          53.257762504765545,
+          0
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 2,
+        "Name" : "Ballyogan Concrete skatepark",
+        "Address" : "Ballyogan Road Ballyogan Dublin 18",
+        "Phone" : null,
+        "Info" : "Open/Free",
+        "ITM_X" : 720738.10749999993,
+        "ITM_Y" : 724573.50129999965
+      }
+    }
+  ]
+}
