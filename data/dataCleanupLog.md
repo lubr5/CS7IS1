@@ -32,3 +32,16 @@
 
 * Formatted as datetime instead of string
 
+**footfall2021-25.csv:**
+
+* Produced consistent header naming, fixising below issues.
+* *2021 adds "Rock Road Park - New Counter" halfway through the year.*
+* *2023 adds new header "Wyattville Rd - Bicycles Towards N11."*
+* *2024 renames "Rock Road Park - New Counter" to Rock Road Park - "Ped's & Cyclists". Cleaned.*
+* *2024 marks "Wyatville Road at Steps" as "Decomissioned/Historical". Cleaned to remove suffix.*
+* *2026 adds new header "N11 Totem Inbound".*
+* *2026 uses Pietons instead of Peds. Normalised.*
+* TODO: ADD CORRECT NUMBER OF COMMAS TO DATASET IN CORRECT POSITION.
+* *Lots of missing data.*
+
+
