@@ -32,16 +32,37 @@
 
 * Formatted as datetime instead of string
 
-**footfall2021-25.csv:**
+*footfallYEAR.csv*
 
-* Produced consistent header naming, fixising below issues.
-* *2021 adds "Rock Road Park - New Counter" halfway through the year.*
-* *2023 adds new header "Wyattville Rd - Bicycles Towards N11."*
-* *2024 renames "Rock Road Park - New Counter" to Rock Road Park - "Ped's & Cyclists". Cleaned.*
-* *2024 marks "Wyatville Road at Steps" as "Decomissioned/Historical". Cleaned to remove suffix.*
-* *2026 adds new header "N11 Totem Inbound".*
-* *2026 uses Pietons instead of Peds. Normalised.*
-* TODO: ADD CORRECT NUMBER OF COMMAS TO DATASET IN CORRECT POSITION.
+* Formatted as datetime instead of string.
 * *Lots of missing data.*
+* TODO?: *Missing rows. Can be seen for each file by running missingRowChecker.py.*
 
 
+**footfall2021.csv:**
+
+* Added normalised header naming based off of dlr_footfallcount. Also fixes below issues.
+* *2021 adds "Rock Road Park - New Counter" halfway through the year.*
+
+**footfall2022.csv:**
+
+* Added normalised header naming based off of dlr_footfallcount.
+
+**footfall2023.csv:**
+
+* Added normalised header naming based off of dlr_footfallcount. Also fixes below issues.
+* *2023 adds new header "Wyattville Rd - Bicycles Towards N11."*
+
+**footfall2024.csv:**
+* Added normalised header naming based off of dlr_footfallcount. Also fixes below issues.
+* *2024 renames "Rock Road Park - New Counter" to Rock Road Park - "Ped's & Cyclists".*
+* *2024 marks "Wyatville Road at Steps" as "Decomissioned/Historical".*
+
+
+**footfall2025.csv:**
+* Added normalised header naming based off of dlr_footfallcount. Also fixes below issues.
+
+**dlr_footfallcount.csv:**
+* Added normalised header naming based off of dlr_footfallcount. Also fixes below issues.
+* *2026 adds new header "N11 Totem Inbound".*
+* *2026 uses Pietons instead of Peds.*
