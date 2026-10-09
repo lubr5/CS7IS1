@@ -32,37 +32,30 @@
 
 * Formatted as datetime instead of string
 
-*footfallYEAR.csv*
+**footfall/*.csv**
 
 * Formatted as datetime instead of string.
+* Normalized headers to match fields of dlr_footfallcount.
+* Added blank data columns where necessary to normalise number of columns.
 * *Lots of missing data.*
-* TODO?: *Missing rows. Can be seen for each file by running missingRowChecker.py.*
+* *Missing rows. Can be seen for each file by running missingRowChecker.py.*
 
+  **footfall2021.csv:**
 
-**footfall2021.csv:**
+  * Below issues fixed by normalising header.
+  * *2021 adds "Rock Road Park - New Counter" halfway through the year.*
 
-* Added normalised header naming based off of dlr_footfallcount. Also fixes below issues.
-* *2021 adds "Rock Road Park - New Counter" halfway through the year.*
+  **footfall2023.csv:**
+  
+  * Below issues fixed by normalising header.
+  * *2023 adds new header "Wyattville Rd - Bicycles Towards N11."*
 
-**footfall2022.csv:**
+  **footfall2024.csv:**
+  * Below issues fixed by normalising header.
+  * *2024 renames "Rock Road Park - New Counter" to Rock Road Park - "Ped's & Cyclists".*
+  * *2024 marks "Wyatville Road at Steps" as "Decomissioned/Historical".*
 
-* Added normalised header naming based off of dlr_footfallcount.
-
-**footfall2023.csv:**
-
-* Added normalised header naming based off of dlr_footfallcount. Also fixes below issues.
-* *2023 adds new header "Wyattville Rd - Bicycles Towards N11."*
-
-**footfall2024.csv:**
-* Added normalised header naming based off of dlr_footfallcount. Also fixes below issues.
-* *2024 renames "Rock Road Park - New Counter" to Rock Road Park - "Ped's & Cyclists".*
-* *2024 marks "Wyatville Road at Steps" as "Decomissioned/Historical".*
-
-
-**footfall2025.csv:**
-* Added normalised header naming based off of dlr_footfallcount. Also fixes below issues.
-
-**dlr_footfallcount.csv:**
-* Added normalised header naming based off of dlr_footfallcount. Also fixes below issues.
-* *2026 adds new header "N11 Totem Inbound".*
-* *2026 uses Pietons instead of Peds.*
+  **dlr_footfallcount.csv:**
+  * Below issues fixed by normalising header.
+  * *2026 adds new header "N11 Totem Inbound".*
+  * *2026 uses Pietons instead of Peds.*
