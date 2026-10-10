@@ -62,10 +62,10 @@
 * *2026 adds new header "N11 Totem Inbound".*
 * *2026 uses Pietons instead of Peds.*
 
-**dlr\_footfallCounterLocations.csv**
+**dlr\_footfallCounterLocations.csv (CONSULT THE FILE footfall\_data\_mapping FOR EXACT TRANSLATION BETWEEN OLD FILE AND NEW FILE):**
 
-  * Improved version of dlr\_footfallcount.csv as this contains more precise XY locations of the footfall counters named in footfallcount.csv
-  * Easting/Northing data also present which perfectly matches the XY
-  * Corrected spelling of Dun Laoghaire
-  * Removed superfluous information from location names e.g. "(new counter)"
+* Improved version of dlr\_footfallcount.csv as this contains more precise XY locations of the footfall counters named in footfallcount.csv
+* Easting/Northing data also present which perfectly matches the XY
+* Corrected spelling of Dun Laoghaire
+* Removed superfluous information from location names e.g. "(new counter)"
 
