@@ -32,10 +32,10 @@
 
 * Formatted as datetime instead of string
 
-**footfall/*.csv**
+**footfall/\*.csv**
 
 * Formatted as datetime instead of string.
-* Normalized headers to match fields of dlr_footfallcount.
+* Normalized headers to match fields of dlr\_footfallcount.
 * Added blank data columns where necessary to normalise number of columns.
 * *Lots of missing data.*
 * *Missing rows. Can be seen for each file by running missingRowChecker.py.*
@@ -46,16 +46,26 @@
   * *2021 adds "Rock Road Park - New Counter" halfway through the year.*
 
   **footfall2023.csv:**
-  
+
   * Below issues fixed by normalising header.
   * *2023 adds new header "Wyattville Rd - Bicycles Towards N11."*
 
   **footfall2024.csv:**
+
   * Below issues fixed by normalising header.
-  * *2024 renames "Rock Road Park - New Counter" to Rock Road Park - "Ped's & Cyclists".*
+  * *2024 renames "Rock Road Park - New Counter" to Rock Road Park - "Ped's \& Cyclists".*
   * *2024 marks "Wyatville Road at Steps" as "Decomissioned/Historical".*
 
-  **dlr_footfallcount.csv:**
-  * Below issues fixed by normalising header.
-  * *2026 adds new header "N11 Totem Inbound".*
-  * *2026 uses Pietons instead of Peds.*
+  **dlr\_footfallcount.csv (SUPERCEDED - INSTEAD USE dlr\_footfallCounterLocations.csv):**
+
+* Below issues fixed by normalising header.
+* *2026 adds new header "N11 Totem Inbound".*
+* *2026 uses Pietons instead of Peds.*
+
+**dlr\_footfallCounterLocations.csv**
+
+  * Improved version of dlr\_footfallcount.csv as this contains more precise XY locations of the footfall counters named in footfallcount.csv
+  * Easting/Northing data also present which perfectly matches the XY
+  * Corrected spelling of Dun Laoghaire
+  * Removed superfluous information from location names e.g. "(new counter)"
+
