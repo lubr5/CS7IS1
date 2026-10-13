@@ -42,12 +42,13 @@ dlr:FootfallObservation a owl:Class ;
     rdfs:label "Footfall Observation" ;
     rdfs:comment "For a certain timestamp, what a footfall counter observed" .
 
-# TODO we need 8 classes - there are only 6 here  i added geoenitty
+# TODO we need 8 classes - there are only 6 here  i added geographic entity
 dlr:GeographicEntity a owl:Class ;
     rdfs:label "Geographic Entity" ;
     rdfs:comment "Anything with a place: an area, an amenity or a counter. " .
 
-# Object Properties--------------------
+# Object Properties------------------------------------
+
 dlr:locatedIn a owl:ObjectProperty, owl:TransitiveProperty ;
     rdfs:label "located in" ;
     rdfs:comment "A geographic entity is located in an area." ;
@@ -93,5 +94,75 @@ dlr:nearTo a owl:ObjectProperty, owl:SymmetricProperty ;
     rdfs:domain dlr:GeographicEntity ;
     rdfs:range dlr:GeographicEntity .
 
-# Data Properties
+# Data Properties ----------------------------------------
+
+dlr:observedAt a owl:DatatypeProperty ;
+    rdfs:label "observed at" ;
+    rdfs:comment "observation was made at what timestamp" ;
+    rdfs:domain dlr:FootfallObservation ;
+    rdfs:range xsd:dateTime .
+
+dlr:totalCount a owl:DatatypeProperty ;
+    rdfs:label "total count" ;
+    rdfs:comment "total footfalls observed" ;
+    rdfs:domain dlr:FootfallObservation ;
+    rdfs:range xsd:integer .
+
+dlr:inCount a owl:DatatypeProperty ;
+    rdfs:label "in count" ;
+    rdfs:comment "footfalls into location observed" ;
+    rdfs:domain dlr:FootfallObservation ;
+    rdfs:range xsd:integer .
+
+dlr:outCount a owl:DatatypeProperty ;
+    rdfs:label "out count" ;
+    rdfs:comment "footfalls out of location observed" ;
+    rdfs:domain dlr:FootfallObservation ;
+    rdfs:range xsd:integer .
+
+dlr:dateOfOperation a owl:DatatypeProperty ;
+    rdfs:label "date of operation" ;
+    rdfs:comment "date the counter started operating" ;
+    rdfs:domain dlr:FootfallCounter ;
+    rdfs:range xsd:date .
+
+dlr:facilityType a owl:DatatypeProperty ;
+    rdfs:label "facility type" ;
+    rdfs:comment "facility type: Leisure Centre, Tennis Club or Skate Park" ;
+    rdfs:domain dlr:SportsFacility ;
+    rdfs:range xsd:string .
+
+dlr:parkType a owl:DatatypeProperty ;
+    rdfs:label "park type" ;
+    rdfs:comment "park type: Regional, Local or District" ;
+    rdfs:domain dlr:Park ;
+    rdfs:range xsd:string .
+
+# Cardinality Restrictions ----------------------------------
+
+dlr:FootfallObservation rdfs:subClassOf [
+    a owl:Restriction ;
+    owl:onProperty dlr:recordedBy ;
+    owl:cardinality "1"^^xsd:nonNegativeInteger
+] .
+dlr:Amenity rdfs:subClassOf [
+    a owl:Restriction ;
+    owl:onProperty dlr:nearestCounter ;
+    owl:maxCardinality "1"^^xsd:nonNegativeInteger
+] .
+dlr:FootfallObservation rdfs:subClassOf [
+    a owl:Restriction ;
+    owl:onProperty dlr:observedAt ;
+    owl:cardinality "1"^^xsd:nonNegativeInteger
+] .
+dlr:FootfallObservation rdfs:subClassOf [
+    a owl:Restriction ;
+    owl:onProperty geo:lat ;
+    owl:cardinality "1"^^xsd:nonNegativeInteger
+] .
+dlr:FootfallObservation rdfs:subClassOf [
+    a owl:Restriction ;
+    owl:onProperty geo:long ;
+    owl:cardinality "1"^^xsd:nonNegativeInteger
+] .
 
