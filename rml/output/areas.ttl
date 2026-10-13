@@ -1,0 +1,54 @@
+@prefix ns1: <http://example.org/dlr/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.org/dlr/id/area/ballyogan> a ns1:Area ;
+    rdfs:label "Ballyogan" ;
+    ns1:locatedIn <http://example.org/dlr/id/area/dlr> .
+
+<http://example.org/dlr/id/area/blackrock> a ns1:Area ;
+    rdfs:label "Blackrock" ;
+    ns1:locatedIn <http://example.org/dlr/id/area/dlr> .
+
+<http://example.org/dlr/id/area/cabinteely> a ns1:Area ;
+    rdfs:label "Cabinteely" ;
+    ns1:locatedIn <http://example.org/dlr/id/area/dlr> .
+
+<http://example.org/dlr/id/area/carrickmines> a ns1:Area ;
+    rdfs:label "Carrickmines" ;
+    ns1:locatedIn <http://example.org/dlr/id/area/dlr> .
+
+<http://example.org/dlr/id/area/dun-laoghaire> a ns1:Area ;
+    rdfs:label "Dún Laoghaire" ;
+    ns1:locatedIn <http://example.org/dlr/id/area/dlr> .
+
+<http://example.org/dlr/id/area/glenageary> a ns1:Area ;
+    rdfs:label "Glenageary" ;
+    ns1:locatedIn <http://example.org/dlr/id/area/dlr> .
+
+<http://example.org/dlr/id/area/killiney> a ns1:Area ;
+    rdfs:label "Killiney" ;
+    ns1:locatedIn <http://example.org/dlr/id/area/dlr> .
+
+<http://example.org/dlr/id/area/leopardstown> a ns1:Area ;
+    rdfs:label "Leopardstown" ;
+    ns1:locatedIn <http://example.org/dlr/id/area/dlr> .
+
+<http://example.org/dlr/id/area/loughlinstown> a ns1:Area ;
+    rdfs:label "Loughlinstown" ;
+    ns1:locatedIn <http://example.org/dlr/id/area/dlr> .
+
+<http://example.org/dlr/id/area/monkstown> a ns1:Area ;
+    rdfs:label "Monkstown" ;
+    ns1:locatedIn <http://example.org/dlr/id/area/dlr> .
+
+<http://example.org/dlr/id/area/sandycove> a ns1:Area ;
+    rdfs:label "Sandycove" ;
+    ns1:locatedIn <http://example.org/dlr/id/area/dlr> .
+
+<http://example.org/dlr/id/area/shankill> a ns1:Area ;
+    rdfs:label "Shankill" ;
+    ns1:locatedIn <http://example.org/dlr/id/area/dlr> .
+
+<http://example.org/dlr/id/area/dlr> a ns1:Area ;
+    rdfs:label "Dún Laoghaire-Rathdown" .
+
