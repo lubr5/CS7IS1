@@ -1,0 +1,8 @@
+OBJECTID,SITES,Type,Info,Lat,Long,Date_of_op,column_prefix
+1,"The Metals, Glenageary Dart Station",cyclists and pedestrians,2 way,53.28135322,-6.123036772,2010-11-24,glenageary
+4,Rock Road Park,cyclists and pedestrians,2 way,53.30882523,-6.195771386,2012-01-24,rock_road_park
+8,Dun Laoghaire @ Seapoint Beach,cyclists and pedestrians,2 way,53.297513,-6.160875,2020-09-01,dun_laoghaire_seapoint_beach
+12,Dun Laoghaire @ Peoples Park,cyclists and pedestrians,2 way,53.291536,-6.128758,2020-09-01,dun_laoghaire_peoples_park
+13,Dun Laoghaire @ York Road,cyclists and pedestrians,2 way,53.296157,-6.142648,2020-08-31,dun_laoghaire_york_road
+15,Wyattville Rd At Park Gates,cyclists and pedestrians,2 way,53.251206,-6.132942,2018-02-23,wyattville_road_park_gates
+16,Wyattville Road At Steps,cyclists and pedestrians,2 way,53.251153,-6.132481,2018-02-23,wyattville_road_steps

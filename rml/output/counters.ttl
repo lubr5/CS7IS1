@@ -1,0 +1,47 @@
+@prefix ns1: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ns2: <http://example.org/dlr/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/dlr/id/counter/1> a ns2:FootfallCounter ;
+    rdfs:label "The Metals, Glenageary Dart Station" ;
+    ns2:dateOfOperation "2010-11-24"^^xsd:date ;
+    ns1:lat 53.28135322 ;
+    ns1:long -6.123036772 .
+
+<http://example.org/dlr/id/counter/12> a ns2:FootfallCounter ;
+    rdfs:label "Dun Laoghaire @ Peoples Park" ;
+    ns2:dateOfOperation "2020-09-01"^^xsd:date ;
+    ns1:lat 53.291536 ;
+    ns1:long -6.128758 .
+
+<http://example.org/dlr/id/counter/13> a ns2:FootfallCounter ;
+    rdfs:label "Dun Laoghaire @ York Road" ;
+    ns2:dateOfOperation "2020-08-31"^^xsd:date ;
+    ns1:lat 53.296157 ;
+    ns1:long -6.142648 .
+
+<http://example.org/dlr/id/counter/15> a ns2:FootfallCounter ;
+    rdfs:label "Wyattville Rd At Park Gates" ;
+    ns2:dateOfOperation "2018-02-23"^^xsd:date ;
+    ns1:lat 53.251206 ;
+    ns1:long -6.132942 .
+
+<http://example.org/dlr/id/counter/16> a ns2:FootfallCounter ;
+    rdfs:label "Wyattville Road At Steps" ;
+    ns2:dateOfOperation "2018-02-23"^^xsd:date ;
+    ns1:lat 53.251153 ;
+    ns1:long -6.132481 .
+
+<http://example.org/dlr/id/counter/4> a ns2:FootfallCounter ;
+    rdfs:label "Rock Road Park" ;
+    ns2:dateOfOperation "2012-01-24"^^xsd:date ;
+    ns1:lat 53.30882523 ;
+    ns1:long -6.195771386 .
+
+<http://example.org/dlr/id/counter/8> a ns2:FootfallCounter ;
+    rdfs:label "Dun Laoghaire @ Seapoint Beach" ;
+    ns2:dateOfOperation "2020-09-01"^^xsd:date ;
+    ns1:lat 53.297513 ;
+    ns1:long -6.160875 .
+

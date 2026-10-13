@@ -1,0 +1,35 @@
+@prefix rr:   <http://www.w3.org/ns/r2rml#> .
+@prefix rml:  <http://semweb.mmlab.be/ns/rml#> .
+@prefix ql:   <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dlr:  <http://example.org/dlr/ontology#> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@base <http://example.org/dlr/mapping/> .
+
+<CounterTriplesMap>
+    a rr:TriplesMap ;
+    rml:logicalSource [
+        rml:source "sources/counters.csv" ;
+        rml:referenceFormulation ql:CSV 
+    ] ; 
+    rr:subjectMap [
+        rr:template "http://example.org/dlr/id/counter/{OBJECTID}" ;
+        rr:class dlr:FootfallCounter
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate rdfs:label ;
+        rr:objectMap [ rml:reference "SITES"]
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dlr:dateOfOperation ;
+        rr:objectMap [ rml:reference "Date_of_op" ; rr:datatype xsd:date ]
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate geo:long ;
+        rr:objectMap [ rml:reference "Long" ; rr:datatype xsd:decimal]
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate geo:lat ;
+        rr:objectMap [ rml:reference "Lat" ; rr:datatype xsd:decimal]
+    ] .
