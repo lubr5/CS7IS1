@@ -1,0 +1,165 @@
+@prefix ns1: <http://example.org/dlr/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dlr/id/leisurecentre/1> a ns1:SportsFacility ;
+    rdfs:label "DLR Leisure Loughlinstown" ;
+    ns1:facilityType "Leisure Centre" ;
+    skos:altLabel "Loughlinstown" ;
+    schema:address "Loughlinstown Dr, Dublin, A96 XP60" ;
+    schema:email "loughlinstown@dlrleisure.ie" ;
+    schema:telephone "01 282 3344" .
+
+<http://example.org/dlr/id/leisurecentre/2> a ns1:SportsFacility ;
+    rdfs:label "DLR Leisure Monkstown" ;
+    ns1:facilityType "Leisure Centre" ;
+    skos:altLabel "Monkstown" ;
+    schema:address "Monkstown Ave, Monkstown, Dublin, A94 YD34" ;
+    schema:email "monkstown@dlrleisure.ie" ;
+    schema:telephone "01 230 1458" .
+
+<http://example.org/dlr/id/leisurecentre/3> a ns1:SportsFacility ;
+    rdfs:label "DLR Leisure Meadowbrook" ;
+    ns1:facilityType "Leisure Centre" ;
+    skos:altLabel "Meadowbrook" ;
+    schema:address "Meadowbrook, Ballinteer, Co. Dublin, D16 HK83" ;
+    schema:email "meadowbrook@dlrleisure.ie" ;
+    schema:telephone "01 299 5610" .
+
+<http://example.org/dlr/id/leisurecentre/4> a ns1:SportsFacility ;
+    rdfs:label "Samuel Beckett Civic Campus" ;
+    ns1:facilityType "Leisure Centre" ;
+    skos:altLabel "Ballyogan" ;
+    schema:address "Samuel Beckett Civic Campus, Ballyogan Road, Ballyogan, Dublin 18, D18 HT72" ;
+    schema:email "ballyogan@dlrleisure.ie" ;
+    schema:telephone "01 294 3880" .
+
+<http://example.org/dlr/id/leisurecentre/5> a ns1:SportsFacility ;
+    rdfs:label "West Wood Club, Dun Laoghaire" ;
+    ns1:facilityType "Leisure Centre" ;
+    skos:altLabel "West Wood Club, Dun Laoghaire" ;
+    schema:address "Pavillion Complex, UNIT 7, Marine Rd, Dún Laoghaire, CO, Co. Dublin, A96 A443" ;
+    schema:email "infodunlaoghaire@westwood.ie" ;
+    schema:telephone "01 280 1299" .
+
+<http://example.org/dlr/id/leisurecentre/6> a ns1:SportsFacility ;
+    rdfs:label "West Wood Club, Leopardstown Race Course" ;
+    ns1:facilityType "Leisure Centre" ;
+    skos:altLabel "West Wood Club, Leopardstown" ;
+    schema:address "Leopardstown Race Course, Carmanhall and Leopardstown, Dublin 18, D18 C9V6" ;
+    schema:email "infoleopardstown@westwood.ie" ;
+    schema:telephone "01 289 3208" .
+
+<http://example.org/dlr/id/skatepark/1> a ns1:SportsFacility ;
+    rdfs:label "Monkstown Skatepark" ;
+    ns1:facilityType "Skate Park" ;
+    schema:address "Bluepool Centre, Monkstown, Dublin" ;
+    schema:telephone "01 230 1458" .
+
+<http://example.org/dlr/id/skatepark/2> a ns1:SportsFacility ;
+    rdfs:label "Ballyogan Concrete skatepark" ;
+    ns1:facilityType "Skate Park" ;
+    schema:address "Ballyogan Road, Ballyogan, Dublin 18" .
+
+<http://example.org/dlr/id/tennis/1> a ns1:SportsFacility ;
+    rdfs:label "Glenageary Lawn Tennis Club" ;
+    ns1:facilityType "Tennis Club" ;
+    schema:address "Silchester Rd, Dún Laoghaire, Dublin" ;
+    schema:email "secretary@glenagearyltc.ie" ;
+    schema:telephone "01 280 8565" .
+
+<http://example.org/dlr/id/tennis/10> a ns1:SportsFacility ;
+    rdfs:label "LC Tennis" ;
+    ns1:facilityType "Tennis Club" ;
+    schema:address "LC Tennis, Enniskerry Rd, Sandyford, Dublin 18" ;
+    schema:telephone "087 648 0107" .
+
+<http://example.org/dlr/id/tennis/11> a ns1:SportsFacility ;
+    rdfs:label "Carrickmines Croquet & Lawn Tennis Club" ;
+    ns1:facilityType "Tennis Club" ;
+    schema:address "Glenamuck Road,Carrickmines, Dublin 18" ;
+    schema:email "info@carrickmines.com" ;
+    schema:telephone "01 289 1462" .
+
+<http://example.org/dlr/id/tennis/12> a ns1:SportsFacility ;
+    rdfs:label "Deerpark Tennis Club" ;
+    ns1:facilityType "Tennis Club" ;
+    schema:address "Deer Park, Mount Merrion, Dublin" ;
+    schema:email "info@deerparktennis.ie" ;
+    schema:telephone "01 278 1466" .
+
+<http://example.org/dlr/id/tennis/13> a ns1:SportsFacility ;
+    rdfs:label "Kilternan Parish Lawn Tennis Club" ;
+    ns1:facilityType "Tennis Club" ;
+    schema:address "Kilternan Church of Ireland, Enniskerry Rd, Dublin 18" .
+
+<http://example.org/dlr/id/tennis/14> a ns1:SportsFacility ;
+    rdfs:label "Westwood Tennis Club" ;
+    ns1:facilityType "Tennis Club" ;
+    schema:address "West Wood Club, Leopardstown Race Course, Foxrock, Dublin 18" ;
+    schema:email "infoleopardstown@westwood.ie" ;
+    schema:telephone "01 2893208" .
+
+<http://example.org/dlr/id/tennis/15> a ns1:SportsFacility ;
+    rdfs:label "Glenalbyn Tennis Club" ;
+    ns1:facilityType "Tennis Club" ;
+    schema:address "Glenalbyn House Stillorgan, Dublin Co. Dublin, Stillorgan" ;
+    schema:email "info@glenalbyntennis.com" ;
+    schema:telephone "01 288 0857" .
+
+<http://example.org/dlr/id/tennis/2> a ns1:SportsFacility ;
+    rdfs:label "Meadowvale Tennis Club" ;
+    ns1:facilityType "Tennis Club" ;
+    schema:address "Meadow Vale, Woodpark, Dublin" ;
+    schema:email "committee@meadowvaletennis.net" ;
+    schema:telephone "01 289 7284" .
+
+<http://example.org/dlr/id/tennis/3> a ns1:SportsFacility ;
+    rdfs:label "Leopardstown Tennis Club" ;
+    ns1:facilityType "Tennis Club" ;
+    schema:address "Stillorgan, Dublin" ;
+    schema:email "joinltc@gmail.com" .
+
+<http://example.org/dlr/id/tennis/4> a ns1:SportsFacility ;
+    rdfs:label "Carraig Lawn Tennis Club" ;
+    ns1:facilityType "Tennis Club" ;
+    schema:address "Rockfield Park, Blackrock, Co. Dublin" ;
+    schema:email "carraigtcinfo@gmail.com" ;
+    schema:telephone "086 221 7560" .
+
+<http://example.org/dlr/id/tennis/5> a ns1:SportsFacility ;
+    rdfs:label "Shankill Tennis Club" ;
+    ns1:facilityType "Tennis Club" ;
+    schema:address "Shanganagh Park" ;
+    schema:email "clubhouse@shankilltennisclub.com" ;
+    schema:telephone "01 282 5400" .
+
+<http://example.org/dlr/id/tennis/6> a ns1:SportsFacility ;
+    rdfs:label "Blackrock Bowling and Tennis Club" ;
+    ns1:facilityType "Tennis Club" ;
+    schema:address "Green Rd, Blackrock, Dublin" ;
+    schema:email "contact@blackrockbtc.ie" ;
+    schema:telephone "01 288 1933" .
+
+<http://example.org/dlr/id/tennis/7> a ns1:SportsFacility ;
+    rdfs:label "Newtown Park Tennis Club" ;
+    ns1:facilityType "Tennis Club" ;
+    schema:address "Newtown Park Tennis Club" ;
+    schema:email "newtownparktc@gmail.com" ;
+    schema:telephone "086 066 7702" .
+
+<http://example.org/dlr/id/tennis/8> a ns1:SportsFacility ;
+    rdfs:label "Monkstown Lawn Tennis Club" ;
+    ns1:facilityType "Tennis Club" ;
+    schema:address "St John's Park, Upper, Monkstown, Co. Dublin" ;
+    schema:email "admin@monkstownltc.com" ;
+    schema:telephone "01 284 2582" .
+
+<http://example.org/dlr/id/tennis/9> a ns1:SportsFacility ;
+    rdfs:label "Sandycove Tennis and Squash Club" ;
+    ns1:facilityType "Tennis Club" ;
+    schema:address "Elton Park, Sandycove, Dublin" ;
+    schema:email "sandycovetsc@eircom.net" ;
+    schema:telephone "01 280 8769" .
+
