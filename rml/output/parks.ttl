@@ -1,0 +1,79 @@
+@prefix ns1: <http://example.org/dlr/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.org/dlr/id/park/1> a ns1:Park ;
+    rdfs:label "Ballawley Park" ;
+    ns1:parkType "Local Park" .
+
+<http://example.org/dlr/id/park/10> a ns1:Park ;
+    rdfs:label "Deerpark" ;
+    ns1:parkType "District Park" .
+
+<http://example.org/dlr/id/park/11> a ns1:Park ;
+    rdfs:label "Peoples Park" ;
+    ns1:parkType "Regional Park" ;
+    skos:altLabel "Glasthule Quarry" ;
+    schema:address "Peoples Park, Park Road, Dun Laoghaire, Co. Dublin" .
+
+<http://example.org/dlr/id/park/12> a ns1:Park ;
+    rdfs:label "Shanganagh Regional Park" ;
+    ns1:parkType "District Park" .
+
+<http://example.org/dlr/id/park/13> a ns1:Park ;
+    rdfs:label "Fernhill Park & Gardens" ;
+    ns1:parkType "Regional Park" ;
+    schema:address "Stepaside" .
+
+<http://example.org/dlr/id/park/14> a ns1:Park ;
+    rdfs:label "Kilbogget Park" ;
+    ns1:parkType "District Park" .
+
+<http://example.org/dlr/id/park/15> a ns1:Park ;
+    rdfs:label "Loreto Park" ;
+    ns1:parkType "Local Park" ;
+    schema:address "Nutgrove, Dublin 14" .
+
+<http://example.org/dlr/id/park/2> a ns1:Park ;
+    rdfs:label "Blackrock Park" ;
+    ns1:parkType "Regional Park" ;
+    schema:address "Blackrock Park, Rock Road, Blackrock, Co. Dublin" .
+
+<http://example.org/dlr/id/park/3> a ns1:Park ;
+    rdfs:label "Cabinteely Park" ;
+    ns1:parkType "Regional Park" ;
+    schema:address "Cabinteely Park, Old Bray Road, Cabinteely, Dublin 18" .
+
+<http://example.org/dlr/id/park/4> a ns1:Park ;
+    rdfs:label "Carysfort Park" ;
+    ns1:parkType "Local Park" .
+
+<http://example.org/dlr/id/park/5> a ns1:Park ;
+    rdfs:label "Clonkeen Park" ;
+    ns1:parkType "District Park" ;
+    schema:address "Clonkeen Park, Deansgrange" .
+
+<http://example.org/dlr/id/park/6> a ns1:Park ;
+    rdfs:label "Dodder Valley Park" ;
+    ns1:parkType "District Park" ;
+    schema:address "Dodder Valley Park, Rathfarnham Dublin" .
+
+<http://example.org/dlr/id/park/7> a ns1:Park ;
+    rdfs:label "Fitzsimons Wood Park",
+        "Binn Trí Charraig"@ga ;
+    ns1:parkType "Local Park" ;
+    skos:altLabel "Part of Three Rock Mountain" .
+
+<http://example.org/dlr/id/park/8> a ns1:Park ;
+    rdfs:label "Killiney Hill Park",
+        "Cill Iníon Léinín"@ga ;
+    ns1:parkType "Regional Park" ;
+    skos:altLabel "Victoria Hill" ;
+    schema:address "Killiney Hill Park, Killiney Hill Road, Co. Dublin" .
+
+<http://example.org/dlr/id/park/9> a ns1:Park ;
+    rdfs:label "Marlay Park" ;
+    ns1:parkType "Regional Park" ;
+    schema:address "Marlay Park, Rathfarnham, Dublin 16" .
+

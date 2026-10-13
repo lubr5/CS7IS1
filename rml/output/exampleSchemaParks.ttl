@@ -1,0 +1,21 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix dlr:  <http://example.org/dlr/ontology#> .
+
+<http://example.org/dlr/ontology> a owl:Ontology .
+
+dlr:Amenity a owl:Class ;
+    rdfs:label "Amenity" ;
+    rdfs:comment "General class for any public amenity." .
+
+dlr:Park a owl:Class ;
+    rdfs:subClassOf dlr:Amenity ;
+    rdfs:label "Park" .
+
+dlr:parkType a owl:DatatypeProperty ;
+    rdfs:domain dlr:Park ;
+    rdfs:range xsd:string ;
+    rdfs:label "park type" ;
+    rdfs:comment "Regional Park, District Park or Local Park." .
