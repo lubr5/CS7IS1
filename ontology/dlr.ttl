@@ -1,0 +1,97 @@
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema:  <https://schema.org/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix dlr:     <http://example.org/dlr/ontology#> .
+
+<http://example.org/dlr/ontology> a owl:Ontology ;
+    dcterms:title "DLR Amenities and Footfall Ontology" ;
+    dcterms:description "Ontology for public amenities, areas and footfall counts in Dun Laoghaire-Rathdown." ;
+    dcterms:creator "CS7IS1 Project" ;
+    owl:versionInfo "0.1" .
+
+# Classes------------------------
+
+dlr:Amenity a owl:Class ;
+    rdfs:label "Amenity" ;
+    rdfs:comment "A public amenity for example a park or sports facility" .
+
+dlr:Park a owl:Class ;
+    rdfs:subClassOf dlr:Amenity ;
+    rdfs:label "Park" ;
+    rdfs:comment "A public park defined by the council" .
+
+dlr:SportsFacility a owl:Class ;
+    rdfs:subClassOf dlr:Amenity ;
+    rdfs:label "Sports Facility" ;
+    rdfs:comment "A public facility providing access to sports such as tennis or swimming" .
+
+dlr:Area a owl:Class ;
+    rdfs:label "Area" ;
+    rdfs:comment "A region within DLR" .
+
+dlr:FootfallCounter a owl:Class ;
+    rdfs:label "Footfall Counter" ;
+    rdfs:comment "A device which provides number of people walking past a certain area" .
+
+dlr:FootfallObservation a owl:Class ;
+    rdfs:label "Footfall Observation" ;
+    rdfs:comment "For a certain timestamp, what a footfall counter observed" .
+
+# TODO we need 8 classes - there are only 6 here  i added geoenitty
+dlr:GeographicEntity a owl:Class ;
+    rdfs:label "Geographic Entity" ;
+    rdfs:comment "Anything with a place: an area, an amenity or a counter. " .
+
+# Object Properties--------------------
+dlr:locatedIn a owl:ObjectProperty, owl:TransitiveProperty ;
+    rdfs:label "located in" ;
+    rdfs:comment "A geographic entity is located in an area." ;
+    rdfs:domain dlr:GeographicEntity ;
+    rdfs:range dlr:Area .
+
+dlr:contains a owl:ObjectProperty ;
+    rdfs:label "contains" ;
+    rdfs:comment "An area contains a geographic entity" ;
+    owl:inverseOf dlr:locatedIn ;
+    rdfs:domain dlr:Area ;
+    rdfs:range dlr:GeographicEntity .
+
+dlr:recordedBy a owl:ObjectProperty ;
+    rdfs:label "recorded by" ;
+    rdfs:comment "An observation was recorded by a counter." ;
+    rdfs:domain dlr:FootfallObservation ;
+    rdfs:range dlr:FootfallCounter .
+
+dlr:hasObservation a owl:ObjectProperty ;
+    rdfs:label "has observation" ;
+    rdfs:comment "A counter has recorded an observation." ;
+    owl:inverseOf dlr:recordedBy ;
+    rdfs:domain dlr:FootfallCounter ;
+    rdfs:range dlr:FootfallObservation .
+
+dlr:nearestCounter a owl:ObjectProperty ;
+    rdfs:label "nearest counter" ;
+    rdfs:comment "The footfall counter closest to an amenity." ;
+    rdfs:domain dlr:Amenity ;
+    rdfs:range dlr:FootfallCounter .
+
+dlr:isNearestCounterFor a owl:ObjectProperty ;
+    rdfs:label "is nearest counter for" ;
+    rdfs:comment "The amenity that this footfall counter is closest to." ;
+    owl:inverseOf dlr:nearestCounter ;
+    rdfs:domain dlr:FootfallCounter ;
+    rdfs:range dlr:Amenity .
+
+dlr:nearTo a owl:ObjectProperty, owl:SymmetricProperty ;
+    rdfs:label "near to" ;
+    rdfs:comment "Two geographic entities are close to each other." ;
+    rdfs:domain dlr:GeographicEntity ;
+    rdfs:range dlr:GeographicEntity .
+
+# Data Properties
+

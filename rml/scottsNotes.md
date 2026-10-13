@@ -7,3 +7,6 @@ park has label in english and irish, altLabel as previous name, address as addre
 we must remove whitespace from data - done here but not original data
 
 we currently only have 7 classes, i think we should just do area ill make a simple mapping here, then make parkclassification a class instead of string - that way a query could be like count parks of this type in this area blahablahblah
+
+
+I jjust invented areas and the mapping from amenity to area so we can do the locatedIn mapping - i really dont know if this is allowed but whatever

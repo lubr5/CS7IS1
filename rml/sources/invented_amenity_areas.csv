@@ -1,0 +1,22 @@
+amenity_type,amenity_id,area_id,basis
+tennis,1,glenageary,name
+tennis,3,leopardstown,name
+tennis,4,blackrock,address
+tennis,5,shankill,name
+tennis,6,blackrock,name
+tennis,8,monkstown,name
+tennis,9,sandycove,name
+tennis,11,carrickmines,name
+tennis,14,leopardstown,address
+skatepark,1,monkstown,address
+skatepark,2,ballyogan,name
+leisurecentre,1,loughlinstown,name
+leisurecentre,2,monkstown,name
+leisurecentre,4,ballyogan,address
+leisurecentre,5,dun-laoghaire,address
+leisurecentre,6,leopardstown,address
+park,2,blackrock,name
+park,3,cabinteely,name
+park,8,killiney,name
+park,11,dun-laoghaire,address
+park,12,shankill,name (Shanganagh Park is in Shankill)
