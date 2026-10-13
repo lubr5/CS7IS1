@@ -1,0 +1,32 @@
+@prefix dlr = <https://data.gov.ie/dataset/leisure-centres-dlr/resource/b0cb6914-3c1c-4264-9fdd-71378bb9b2ee/view/de9a5766-b465-44b9-b250-dbbd5f3a0787>
+@prefix xsd = <http://www.w3.org/2001/XMLSchema#>
+
+dlr:Loughlinstown
+    a dlr:LeisureCentre ; 
+    dlr:name "Loughlinstown" ; 
+    dlr:full_name "DLR Leisure Loughlinstown" ; 
+    dlr:address "Loughlinstown Dr, Dublin, A96 XP60" ; 
+    dlr:phone "01 282 3344" ;
+    dlr:email "loughlinstown@dlrleisure.ie" ;
+    dlr:itmX "724804.727099999785423"^^xsd:decimal ;
+    dlr:itmY "723371.472699999809265"^^xsd:decimal . 
+
+dlr:Monkstown 
+    a dlr:LeisureCentre ; 
+    dlr:name "Monkstown" ; 
+    dlr:full_name "DLR Leisure Centre Monkstown" ; 
+    dlr:address "Monkstown Ave, Monkstown, Dublin, A94 YD34" ; 
+    dlr:phone "01 230 1458" ; 
+    dlr:email "monkstown@dlrleisure.ie" . 
+    dlr:itmX "723093.014200000092387"^^xsd:decimal ;
+    dlr:itmY "727931.747300000861287"^^xsd:decimal . 
+
+dlr:DunLaoghaire
+    a dlr:OtherLeisureCentre ; 
+    dlr:name "Dun Laoghaire" ; 
+    dlr:full_name "West Wood Club, Dun Laoghaire" ; 
+    dlr:address "Pavillion Complex, UNIT 7, Marine Rd, Dún Laoghaire, CO, Co. Dublin, A96 A443" ; 
+    dlr:phone "01 280 1299" ; 
+    dlr:email "infodunlaoghaire@westwood.ie" . 
+    dlr:itmX "724386.320500000379980"^^xsd:decimal ;
+    dlr:itmY "728677.867000000551343"^^xsd:decimal .

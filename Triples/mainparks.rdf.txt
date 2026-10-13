@@ -1,0 +1,15 @@
+@prefix dlr = <https://data.gov.ie/.../#>
+@prefix xsd = <http://www.w3.org/2001/XMLSchema#>
+
+@prefix footfall = <https://data.gov.ie/.../#>
+
+dlr:PeoplesPark 
+    a dlr:MainPark ; 
+    dlr:name "PeoplesPark" ; 
+    dlr:address "Peoples Park, Park Road, Dun Laoghaire, Co. Dublin" ;
+    dlr:type "Regional Park" ; 
+    dlr:Shape_Length "545.691357233125245"^^xsd:decimal ; 
+    dlr:footfallTotal footfall:dun_laoghaire_peoples_park_total ; 
+    dlr:footfallIn footfall:dun_laoghaire_peoples_park_in ; 
+    dlr:footfallOut footfall:dun_laoghaire_peoples_park_out ; 
+
