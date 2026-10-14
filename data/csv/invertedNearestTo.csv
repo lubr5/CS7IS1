@@ -1,0 +1,17 @@
+counter_id,amenity_type,amenity_id,distance_m
+1,tennis,1,406
+2,park,2,564
+3,park,2,613
+4,park,2,630
+5,park,10,1291
+6,park,10,1347
+7,park,6,774
+8,tennis,4,1030
+9,park,15,606
+10,leisurecentre,1,570
+11,leisurecentre,1,533
+12,park,11,176
+13,leisurecentre,5,622
+14,park,10,1141
+15,leisurecentre,1,609
+16,leisurecentre,1,594
