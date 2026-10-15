@@ -1,6 +1,18 @@
 import csv
 from pathlib import Path
 
+ROOT = Path(__file__).resolve().parents[1]
+CSV_DIR = ROOT / "data" / "csv"
+HISTORICAL_DIR = CSV_DIR / "historicalFootfall_pre2026"
+FILES = [
+    HISTORICAL_DIR / "footfall2021.csv",
+    HISTORICAL_DIR / "footfall2022.csv",
+    HISTORICAL_DIR / "footfall2023.csv",
+    HISTORICAL_DIR / "footfall2024.csv",
+    HISTORICAL_DIR / "footfall2025.csv",
+    CSV_DIR / "dlr_footfallcount.csv",
+]
+
 FINAL_HEADERS = [
     "Time",
     "dun_laoghaire_peoples_park_total",
@@ -72,19 +84,13 @@ def standardise_file(input_file, output_file):
 
                 writer.writerow(new_row)
 
-# Change this to the directory of your files.
-files = [
-    "/Users/ollieeasterbrook/Desktop/github projects/CS7IS1/data/csv/historicalFootfall_pre2026/footfall2021.csv",
-    "/Users/ollieeasterbrook/Desktop/github projects/CS7IS1/data/csv/historicalFootfall_pre2026/footfall2022.csv",
-    "/Users/ollieeasterbrook/Desktop/github projects/CS7IS1/data/csv/historicalFootfall_pre2026/footfall2023.csv",
-    "/Users/ollieeasterbrook/Desktop/github projects/CS7IS1/data/csv/historicalFootfall_pre2026/footfall2024.csv",
-    "/Users/ollieeasterbrook/Desktop/github projects/CS7IS1/data/csv/historicalFootfall_pre2026/footfall2025.csv",
-    "/Users/ollieeasterbrook/Desktop/github projects/CS7IS1/data/csv/dlr_footfallcount.csv",
-]
+def main():
+    for input_file in FILES:
+        output_file = input_file.with_name(input_file.stem + "_standardised.csv")
+        standardise_file(input_file, output_file)
 
-for file in files:
-    input_file = Path(file)
-    output_file = input_file.with_name(input_file.stem + "_standardised.csv") # Manually rename once checked.
-    standardise_file(input_file, output_file)
+        print(f"Created: {output_file}")
 
-    print(f"Created: {output_file}")
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,110 @@
+@prefix ns1: <http://example.org/dlr/ontology#> .
+
+<http://example.org/dlr/id/counter/10> ns1:isNearestCounterFor <http://example.org/dlr/id/leisurecentre/1> .
+
+<http://example.org/dlr/id/counter/11> ns1:isNearestCounterFor <http://example.org/dlr/id/leisurecentre/1> .
+
+<http://example.org/dlr/id/counter/14> ns1:isNearestCounterFor <http://example.org/dlr/id/park/10> .
+
+<http://example.org/dlr/id/counter/2> ns1:isNearestCounterFor <http://example.org/dlr/id/park/2> .
+
+<http://example.org/dlr/id/counter/3> ns1:isNearestCounterFor <http://example.org/dlr/id/park/2> .
+
+<http://example.org/dlr/id/counter/5> ns1:isNearestCounterFor <http://example.org/dlr/id/park/10> .
+
+<http://example.org/dlr/id/counter/6> ns1:isNearestCounterFor <http://example.org/dlr/id/park/10> .
+
+<http://example.org/dlr/id/counter/7> ns1:isNearestCounterFor <http://example.org/dlr/id/park/6> .
+
+<http://example.org/dlr/id/counter/9> ns1:isNearestCounterFor <http://example.org/dlr/id/park/15> .
+
+<http://example.org/dlr/id/leisurecentre/2> ns1:nearestCounter <http://example.org/dlr/id/counter/8> .
+
+<http://example.org/dlr/id/leisurecentre/3> ns1:nearestCounter <http://example.org/dlr/id/counter/4> .
+
+<http://example.org/dlr/id/leisurecentre/4> ns1:nearestCounter <http://example.org/dlr/id/counter/15> .
+
+<http://example.org/dlr/id/leisurecentre/6> ns1:nearestCounter <http://example.org/dlr/id/counter/8> .
+
+<http://example.org/dlr/id/park/1> ns1:nearestCounter <http://example.org/dlr/id/counter/4> .
+
+<http://example.org/dlr/id/park/12> ns1:nearestCounter <http://example.org/dlr/id/counter/16> .
+
+<http://example.org/dlr/id/park/13> ns1:nearestCounter <http://example.org/dlr/id/counter/4> .
+
+<http://example.org/dlr/id/park/14> ns1:nearestCounter <http://example.org/dlr/id/counter/15> .
+
+<http://example.org/dlr/id/park/3> ns1:nearestCounter <http://example.org/dlr/id/counter/15> .
+
+<http://example.org/dlr/id/park/4> ns1:nearestCounter <http://example.org/dlr/id/counter/8> .
+
+<http://example.org/dlr/id/park/5> ns1:nearestCounter <http://example.org/dlr/id/counter/1> .
+
+<http://example.org/dlr/id/park/7> ns1:nearestCounter <http://example.org/dlr/id/counter/4> .
+
+<http://example.org/dlr/id/park/8> ns1:nearestCounter <http://example.org/dlr/id/counter/1> .
+
+<http://example.org/dlr/id/park/9> ns1:nearestCounter <http://example.org/dlr/id/counter/4> .
+
+<http://example.org/dlr/id/skatepark/1> ns1:nearestCounter <http://example.org/dlr/id/counter/13> .
+
+<http://example.org/dlr/id/skatepark/2> ns1:nearestCounter <http://example.org/dlr/id/counter/15> .
+
+<http://example.org/dlr/id/tennis/10> ns1:nearestCounter <http://example.org/dlr/id/counter/4> .
+
+<http://example.org/dlr/id/tennis/11> ns1:nearestCounter <http://example.org/dlr/id/counter/15> .
+
+<http://example.org/dlr/id/tennis/12> ns1:nearestCounter <http://example.org/dlr/id/counter/4> .
+
+<http://example.org/dlr/id/tennis/13> ns1:nearestCounter <http://example.org/dlr/id/counter/15> .
+
+<http://example.org/dlr/id/tennis/14> ns1:nearestCounter <http://example.org/dlr/id/counter/8> .
+
+<http://example.org/dlr/id/tennis/15> ns1:nearestCounter <http://example.org/dlr/id/counter/4> .
+
+<http://example.org/dlr/id/tennis/2> ns1:nearestCounter <http://example.org/dlr/id/counter/1> .
+
+<http://example.org/dlr/id/tennis/3> ns1:nearestCounter <http://example.org/dlr/id/counter/8> .
+
+<http://example.org/dlr/id/tennis/5> ns1:nearestCounter <http://example.org/dlr/id/counter/16> .
+
+<http://example.org/dlr/id/tennis/6> ns1:nearestCounter <http://example.org/dlr/id/counter/4> .
+
+<http://example.org/dlr/id/tennis/7> ns1:nearestCounter <http://example.org/dlr/id/counter/8> .
+
+<http://example.org/dlr/id/tennis/8> ns1:nearestCounter <http://example.org/dlr/id/counter/13> .
+
+<http://example.org/dlr/id/tennis/9> ns1:nearestCounter <http://example.org/dlr/id/counter/1> .
+
+<http://example.org/dlr/id/leisurecentre/5> ns1:nearestCounter <http://example.org/dlr/id/counter/12> .
+
+<http://example.org/dlr/id/park/11> ns1:nearestCounter <http://example.org/dlr/id/counter/12> .
+
+<http://example.org/dlr/id/park/15> ns1:nearestCounter <http://example.org/dlr/id/counter/4> .
+
+<http://example.org/dlr/id/park/6> ns1:nearestCounter <http://example.org/dlr/id/counter/4> .
+
+<http://example.org/dlr/id/tennis/1> ns1:nearestCounter <http://example.org/dlr/id/counter/1> .
+
+<http://example.org/dlr/id/tennis/4> ns1:nearestCounter <http://example.org/dlr/id/counter/8> .
+
+<http://example.org/dlr/id/counter/12> ns1:isNearestCounterFor <http://example.org/dlr/id/park/11> .
+
+<http://example.org/dlr/id/counter/13> ns1:isNearestCounterFor <http://example.org/dlr/id/leisurecentre/5> .
+
+<http://example.org/dlr/id/counter/16> ns1:isNearestCounterFor <http://example.org/dlr/id/leisurecentre/1> .
+
+<http://example.org/dlr/id/park/10> ns1:nearestCounter <http://example.org/dlr/id/counter/4> .
+
+<http://example.org/dlr/id/park/2> ns1:nearestCounter <http://example.org/dlr/id/counter/4> .
+
+<http://example.org/dlr/id/leisurecentre/1> ns1:nearestCounter <http://example.org/dlr/id/counter/16> .
+
+<http://example.org/dlr/id/counter/1> ns1:isNearestCounterFor <http://example.org/dlr/id/tennis/1> .
+
+<http://example.org/dlr/id/counter/15> ns1:isNearestCounterFor <http://example.org/dlr/id/leisurecentre/1> .
+
+<http://example.org/dlr/id/counter/8> ns1:isNearestCounterFor <http://example.org/dlr/id/tennis/4> .
+
+<http://example.org/dlr/id/counter/4> ns1:isNearestCounterFor <http://example.org/dlr/id/park/2> .
+
