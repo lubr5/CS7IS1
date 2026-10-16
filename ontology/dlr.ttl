@@ -30,6 +30,11 @@ dlr:SportsFacility a owl:Class ;
     rdfs:label "Sports Facility" ;
     rdfs:comment "A public facility providing access to sports such as tennis or swimming" .
 
+dlr:Infrastructure a owl:Class ;
+    rdfs:subClassOf dlr:Amenity ;
+    rdfs:label "Infrastructure" ;
+    rdfs:comment "Public infrastructure such as toilets and Wi-Fi access points" .
+
 dlr:Area a owl:Class ;
     rdfs:label "Area" ;
     rdfs:comment "A region within DLR" .
@@ -136,6 +141,16 @@ dlr:parkType a owl:DatatypeProperty ;
     rdfs:label "park type" ;
     rdfs:comment "park type: Regional, Local or District" ;
     rdfs:domain dlr:Park ;
+    rdfs:range xsd:string .
+
+dlr:wifiVoucher a owl:DatatypeProperty ;
+    rdfs:label "Wi-Fi voucher" ;
+    rdfs:domain dlr:Infrastructure ;
+    rdfs:range xsd:string .
+
+dlr:indoorOrOutdoor a owl:DatatypeProperty ;
+    rdfs:label "indoor or outdoor" ;
+    rdfs:domain dlr:Infrastructure ;
     rdfs:range xsd:string .
 
 # Cardinality Restrictions ----------------------------------

@@ -1,0 +1,67 @@
+@prefix rr:     <http://www.w3.org/ns/r2rml#> .
+@prefix rml:    <http://semweb.mmlab.be/ns/rml#> .
+@prefix ql:     <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix geo:    <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix dlr:    <http://example.org/dlr/ontology#> .
+@base <http://example.org/dlr/mapping/> .
+
+<PublicToiletTriplesMap>
+    a rr:TriplesMap ;
+    rml:logicalSource [
+        rml:source "sources/dlr_publictoilets.csv" ;
+        rml:referenceFormulation ql:CSV
+    ] ;
+    rr:subjectMap [
+        rr:template "http://example.org/dlr/id/publictoilet/{OBJECTID}" ;
+        rr:class dlr:Infrastructure
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate rdfs:label ;
+        rr:objectMap [ rml:reference "Location" ]
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate schema:openingHours ;
+        rr:objectMap [ rml:reference "Opening Hours" ]
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate geo:lat ;
+        rr:objectMap [ rml:reference "Latitude" ; rr:datatype xsd:decimal ]
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate geo:long ;
+        rr:objectMap [ rml:reference "Longitude" ; rr:datatype xsd:decimal ]
+    ] .
+
+<WifiAccessTriplesMap>
+    a rr:TriplesMap ;
+    rml:logicalSource [
+        rml:source "sources/dlr_wifiaccess.csv" ;
+        rml:referenceFormulation ql:CSV
+    ] ;
+    rr:subjectMap [
+        rr:template "http://example.org/dlr/id/wifiaccess/{OBJECTID}" ;
+        rr:class dlr:Infrastructure
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate rdfs:label ;
+        rr:objectMap [ rml:reference "Location" ]
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dlr:wifiVoucher ;
+        rr:objectMap [ rml:reference "WiFi4EU_Voucher" ]
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate dlr:indoorOrOutdoor ;
+        rr:objectMap [ rml:reference "Indoor_Or_Outdoor" ]
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate geo:lat ;
+        rr:objectMap [ rml:reference "Latitude" ; rr:datatype xsd:decimal ]
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate geo:long ;
+        rr:objectMap [ rml:reference "Longitude" ; rr:datatype xsd:decimal ]
+    ] .

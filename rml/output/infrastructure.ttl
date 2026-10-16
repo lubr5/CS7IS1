@@ -1,0 +1,475 @@
+@prefix ns1: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ns2: <http://example.org/dlr/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/dlr/id/publictoilet/1> a ns2:Infrastructure ;
+    rdfs:label "Marlay Park Playground restrooms, Grange Rd, Rathfarnham, D16" ;
+    ns1:lat 53.271275 ;
+    ns1:long -6.275508 ;
+    schema:openingHours "9am to 5pm Monday to Sunday" .
+
+<http://example.org/dlr/id/publictoilet/10> a ns2:Infrastructure ;
+    rdfs:label "Killiney Beach Toilet, Station Road, Killiney, D18" ;
+    ns1:lat 53.257343 ;
+    ns1:long -6.113267 ;
+    schema:openingHours "All day Monday to Sunday" .
+
+<http://example.org/dlr/id/publictoilet/11> a ns2:Infrastructure ;
+    rdfs:label "Killiney Hill Tea Rooms, Killiney Hill Rd, Killiney, D18" ;
+    ns1:lat 53.266639 ;
+    ns1:long -6.114844 ;
+    schema:openingHours "8:30 to 4pm Monday to Sunday" .
+
+<http://example.org/dlr/id/publictoilet/12> a ns2:Infrastructure ;
+    rdfs:label "Whiterock Toilet, Killiney Hill Rd, Killiney, D18" ;
+    ns1:lat 53.267707 ;
+    ns1:long -6.104661 ;
+    schema:openingHours "8:30 to 4pm Monday to Sunday" .
+
+<http://example.org/dlr/id/publictoilet/13> a ns2:Infrastructure ;
+    rdfs:label "Deansgrange Cemetery, 2 Deansgrange Rd, D18" ;
+    ns1:lat 53.281623 ;
+    ns1:long -6.165825 ;
+    schema:openingHours "10pm to 4:30pm Monday to Sunday" .
+
+<http://example.org/dlr/id/publictoilet/14> a ns2:Infrastructure ;
+    rdfs:label "Seapoint Toilet, Seapoint Beach, D4" ;
+    ns1:lat 53.297627 ;
+    ns1:long -6.159962 ;
+    schema:openingHours "All day Monday to Sunday" .
+
+<http://example.org/dlr/id/publictoilet/15> a ns2:Infrastructure ;
+    rdfs:label "Traders Wharf, Dun Laoghaire-Rathdown, D18" ;
+    ns1:lat 53.297695 ;
+    ns1:long -6.141156 ;
+    schema:openingHours "All day Monday to Sunday" .
+
+<http://example.org/dlr/id/publictoilet/16> a ns2:Infrastructure ;
+    rdfs:label "East Pier Lighthouse, Dun Laoghaire-Rathdown, D18" ;
+    ns1:lat 53.302465 ;
+    ns1:long -6.126818 ;
+    schema:openingHours "All day Monday to Sunday" .
+
+<http://example.org/dlr/id/publictoilet/17> a ns2:Infrastructure ;
+    rdfs:label "People's Park, Dun Laoghaire-Rathdown, D18" ;
+    ns1:lat 53.289685 ;
+    ns1:long -6.129249 ;
+    schema:openingHours "8am to 8pm Monday to Sunday" .
+
+<http://example.org/dlr/id/publictoilet/18> a ns2:Infrastructure ;
+    rdfs:label "Sandycove Avenue West Toilet, Dun Laoghaire-Rathdown, D18" ;
+    ns1:lat 53.287399 ;
+    ns1:long -6.115098 ;
+    schema:openingHours "8am to 11:30pm Monday to Sunday" .
+
+<http://example.org/dlr/id/publictoilet/19> a ns2:Infrastructure ;
+    rdfs:label "Sandycove Ave East Toilet, Dun Laoghaire-Rathdown, D18" ;
+    ns1:lat 53.287982 ;
+    ns1:long -6.112138 ;
+    schema:openingHours "8am to 11:30pm Monday to Sunday" .
+
+<http://example.org/dlr/id/publictoilet/2> a ns2:Infrastructure ;
+    rdfs:label "Marlay Lower Courtyard: Toilet, Grange Rd, Rathfarnham, D16" ;
+    ns1:lat 53.273905 ;
+    ns1:long -6.273654 ;
+    schema:openingHours "9am to 5pm Monday to Sunday" .
+
+<http://example.org/dlr/id/publictoilet/20> a ns2:Infrastructure ;
+    rdfs:label "Forty Foot, Dun Laoghaire-Rathdown, D18" ;
+    ns1:lat 53.289364 ;
+    ns1:long -6.11388 ;
+    schema:openingHours "8am to 11:30pm Monday to Sunday" .
+
+<http://example.org/dlr/id/publictoilet/21> a ns2:Infrastructure ;
+    rdfs:label "Bullock Harbour Toilet, Dalkey, Dun Laoghaire-Rathdown, D18" ;
+    ns1:lat 53.285401 ;
+    ns1:long -6.107202 ;
+    schema:openingHours "All day Monday to Sunday" .
+
+<http://example.org/dlr/id/publictoilet/3> a ns2:Infrastructure ;
+    rdfs:label "Marlay Craft Courtyard, Grange Rd, Rathfarnham, D16" ;
+    ns1:lat 53.278358 ;
+    ns1:long -6.270302 ;
+    schema:openingHours "9am to 5pm Monday to Sunday" .
+
+<http://example.org/dlr/id/publictoilet/4> a ns2:Infrastructure ;
+    rdfs:label "Marlay Craft Courtyard: Changing Place, Grange Rd, Rathfarnham, D16" ;
+    ns1:lat 53.278662 ;
+    ns1:long -6.270747 ;
+    schema:openingHours "9am to 5pm Monday to Sunday" .
+
+<http://example.org/dlr/id/publictoilet/5> a ns2:Infrastructure ;
+    rdfs:label "Fernhill Car Park, Enniskerry Rd, D18" ;
+    ns1:lat 53.258165 ;
+    ns1:long -6.226698 ;
+    schema:openingHours "9am to 5pm Monday to Sunday" .
+
+<http://example.org/dlr/id/publictoilet/6> a ns2:Infrastructure ;
+    rdfs:label "Fernhill House, Enniskerry Rd, D18" ;
+    ns1:lat 53.257767 ;
+    ns1:long -6.225219 ;
+    schema:openingHours "9am to 5pm Monday to Sunday" .
+
+<http://example.org/dlr/id/publictoilet/7> a ns2:Infrastructure ;
+    rdfs:label "Shanganagh Park & Cemetery: Changing Places, Shankill, D18" ;
+    ns1:lat 53.222198 ;
+    ns1:long -6.117806 ;
+    schema:openingHours "Open Access January to December" .
+
+<http://example.org/dlr/id/publictoilet/8> a ns2:Infrastructure ;
+    rdfs:label "Cabinteely Park Playground, Dun Laoghaire-Rathdown, D18" ;
+    ns1:lat 53.261075 ;
+    ns1:long -6.158168 ;
+    schema:openingHours "8am to 5pm Monday to Sunday" .
+
+<http://example.org/dlr/id/publictoilet/9> a ns2:Infrastructure ;
+    rdfs:label "Cabinteely Park: Changing Places, Dun Laoghaire-Rathdown, D18" ;
+    ns1:lat 53.260456 ;
+    ns1:long -6.161749 ;
+    schema:openingHours "8am to 5pm Monday to Sunday" .
+
+<http://example.org/dlr/id/wifiaccess/1> a ns2:Infrastructure ;
+    rdfs:label "Blackrock Park" ;
+    ns2:indoorOrOutdoor "Outdoor" ;
+    ns2:wifiVoucher "Voucher A" ;
+    ns1:lat 53.304250000000003 ;
+    ns1:long -6.184878000000000 .
+
+<http://example.org/dlr/id/wifiaccess/10> a ns2:Infrastructure ;
+    rdfs:label "Killiney Hill Café" ;
+    ns2:indoorOrOutdoor "Outdoor" ;
+    ns2:wifiVoucher "Voucher A" ;
+    ns1:lat 53.266616999999997 ;
+    ns1:long -6.114806000000000 .
+
+<http://example.org/dlr/id/wifiaccess/11> a ns2:Infrastructure ;
+    rdfs:label "People's Park, near Café" ;
+    ns2:indoorOrOutdoor "Outdoor" ;
+    ns2:wifiVoucher "Voucher A" ;
+    ns1:lat 53.289667000000001 ;
+    ns1:long -6.129350000000000 .
+
+<http://example.org/dlr/id/wifiaccess/12> a ns2:Infrastructure ;
+    rdfs:label "Sallynoggin Community Ctr" ;
+    ns2:indoorOrOutdoor "Indoor" ;
+    ns2:wifiVoucher "Voucher A" ;
+    ns1:lat 53.274633000000001 ;
+    ns1:long -6.137068000000000 .
+
+<http://example.org/dlr/id/wifiaccess/13> a ns2:Infrastructure ;
+    rdfs:label "Sandycove, The Battery" ;
+    ns2:indoorOrOutdoor "Outdoor" ;
+    ns2:wifiVoucher "Voucher A" ;
+    ns1:lat 53.289099000000000 ;
+    ns1:long -6.114244000000000 .
+
+<http://example.org/dlr/id/wifiaccess/14> a ns2:Infrastructure ;
+    rdfs:label "Seapoint" ;
+    ns2:indoorOrOutdoor "Outdoor" ;
+    ns2:wifiVoucher "Voucher A" ;
+    ns1:lat 53.297674999999998 ;
+    ns1:long -6.159872000000000 .
+
+<http://example.org/dlr/id/wifiaccess/15> a ns2:Infrastructure ;
+    rdfs:label "Ballyogan Parish Hall" ;
+    ns2:indoorOrOutdoor "Indoor" ;
+    ns2:wifiVoucher "Voucher B" ;
+    ns1:lat 53.257178000000003 ;
+    ns1:long -6.189146000000000 .
+
+<http://example.org/dlr/id/wifiaccess/16> a ns2:Infrastructure ;
+    rdfs:label "Deerpark, Tennis Club" ;
+    ns2:indoorOrOutdoor "Indoor" ;
+    ns2:wifiVoucher "Voucher B" ;
+    ns1:lat 53.294787999999997 ;
+    ns1:long -6.215574000000000 .
+
+<http://example.org/dlr/id/wifiaccess/17> a ns2:Infrastructure ;
+    rdfs:label "Deerpark, Tennis Club" ;
+    ns2:indoorOrOutdoor "Outdoor" ;
+    ns2:wifiVoucher "Voucher B" ;
+    ns1:lat 53.294787999999997 ;
+    ns1:long -6.215574000000000 .
+
+<http://example.org/dlr/id/wifiaccess/18> a ns2:Infrastructure ;
+    rdfs:label "Fernhill Gardens" ;
+    ns2:indoorOrOutdoor "Outdoor" ;
+    ns2:wifiVoucher "Voucher B" ;
+    ns1:lat 53.257449000000001 ;
+    ns1:long -6.224921000000000 .
+
+<http://example.org/dlr/id/wifiaccess/19> a ns2:Infrastructure ;
+    rdfs:label "Glencullen Community Ctr." ;
+    ns2:indoorOrOutdoor "Indoor" ;
+    ns2:wifiVoucher "Voucher B" ;
+    ns1:lat 53.223019999999998 ;
+    ns1:long -6.215429000000000 .
+
+<http://example.org/dlr/id/wifiaccess/2> a ns2:Infrastructure ;
+    rdfs:label "Dalkey Library" ;
+    ns2:indoorOrOutdoor "Outdoor" ;
+    ns2:wifiVoucher "Voucher A" ;
+    ns1:lat 53.277442999999998 ;
+    ns1:long -6.104496000000000 .
+
+<http://example.org/dlr/id/wifiaccess/20> a ns2:Infrastructure ;
+    rdfs:label "Kirwan Park, DeLaSalle" ;
+    ns2:indoorOrOutdoor "Indoor" ;
+    ns2:wifiVoucher "Voucher B" ;
+    ns1:lat 53.245877999999998 ;
+    ns1:long -6.199022000000000 .
+
+<http://example.org/dlr/id/wifiaccess/21> a ns2:Infrastructure ;
+    rdfs:label "Kirwan Park, DeLaSalle" ;
+    ns2:indoorOrOutdoor "Outdoor" ;
+    ns2:wifiVoucher "Voucher B" ;
+    ns1:lat 53.245877999999998 ;
+    ns1:long -6.199022000000000 .
+
+<http://example.org/dlr/id/wifiaccess/22> a ns2:Infrastructure ;
+    rdfs:label "Patrician Villas Community Ctr" ;
+    ns2:indoorOrOutdoor "Outdoor" ;
+    ns2:wifiVoucher "Voucher B" ;
+    ns1:lat 53.290126999999998 ;
+    ns1:long -6.194623000000000 .
+
+<http://example.org/dlr/id/wifiaccess/23> a ns2:Infrastructure ;
+    rdfs:label "Rochestown House Community Ctr" ;
+    ns2:indoorOrOutdoor "Indoor" ;
+    ns2:wifiVoucher "Voucher B" ;
+    ns1:lat 53.274272000000003 ;
+    ns1:long -6.145671000000000 .
+
+<http://example.org/dlr/id/wifiaccess/24> a ns2:Infrastructure ;
+    rdfs:label "Sandyford Village, Nectar" ;
+    ns2:indoorOrOutdoor "Indoor" ;
+    ns2:wifiVoucher "Voucher B" ;
+    ns1:lat 53.270001000000001 ;
+    ns1:long -6.224784000000000 .
+
+<http://example.org/dlr/id/wifiaccess/25> a ns2:Infrastructure ;
+    rdfs:label "Sandyford Village, Nectar" ;
+    ns2:indoorOrOutdoor "Outdoor" ;
+    ns2:wifiVoucher "Voucher B" ;
+    ns1:lat 53.270001000000001 ;
+    ns1:long -6.224784000000000 .
+
+<http://example.org/dlr/id/wifiaccess/26> a ns2:Infrastructure ;
+    rdfs:label "Stepaside All Weather pitches" ;
+    ns2:indoorOrOutdoor "Outdoor" ;
+    ns2:wifiVoucher "Voucher B" ;
+    ns1:lat 53.247655999999999 ;
+    ns1:long -6.201417000000000 .
+
+<http://example.org/dlr/id/wifiaccess/27> a ns2:Infrastructure ;
+    rdfs:label "Stepaside Public Golf Course" ;
+    ns2:indoorOrOutdoor "Outdoor" ;
+    ns2:wifiVoucher "Voucher B" ;
+    ns1:lat 53.248781000000001 ;
+    ns1:long -6.202571000000000 .
+
+<http://example.org/dlr/id/wifiaccess/28> a ns2:Infrastructure ;
+    rdfs:label "Ballybrack Project Centre" ;
+    ns2:indoorOrOutdoor "Indoor" ;
+    ns2:wifiVoucher "Voucher C" ;
+    ns1:lat 53.254257000000003 ;
+    ns1:long -6.136042000000000 .
+
+<http://example.org/dlr/id/wifiaccess/29> a ns2:Infrastructure ;
+    rdfs:label "Cabinteely FC, Kilbogget" ;
+    ns2:indoorOrOutdoor "Indoor" ;
+    ns2:wifiVoucher "Voucher C" ;
+    ns1:lat 53.259076999999998 ;
+    ns1:long -6.138596000000000 .
+
+<http://example.org/dlr/id/wifiaccess/3> a ns2:Infrastructure ;
+    rdfs:label "DLR Baths Café" ;
+    ns2:indoorOrOutdoor "Outdoor" ;
+    ns2:wifiVoucher "Voucher A" ;
+    ns1:lat 53.291018999999999 ;
+    ns1:long -6.127965000000000 .
+
+<http://example.org/dlr/id/wifiaccess/30> a ns2:Infrastructure ;
+    rdfs:label "Cabinteely FC, Kilbogget" ;
+    ns2:indoorOrOutdoor "Outdoor" ;
+    ns2:wifiVoucher "Voucher C" ;
+    ns1:lat 53.259076999999998 ;
+    ns1:long -6.138596000000000 .
+
+<http://example.org/dlr/id/wifiaccess/31> a ns2:Infrastructure ;
+    rdfs:label "Cabinteely Grainstore" ;
+    ns2:indoorOrOutdoor "Outdoor" ;
+    ns2:wifiVoucher "Voucher C" ;
+    ns1:lat 53.260246000000002 ;
+    ns1:long -6.161374000000000 .
+
+<http://example.org/dlr/id/wifiaccess/32> a ns2:Infrastructure ;
+    rdfs:label "Cabinteely Park Playground" ;
+    ns2:indoorOrOutdoor "Outdoor" ;
+    ns2:wifiVoucher "Voucher C" ;
+    ns1:lat 53.261406999999998 ;
+    ns1:long -6.158207000000000 .
+
+<http://example.org/dlr/id/wifiaccess/33> a ns2:Infrastructure ;
+    rdfs:label "Cois Cairn Community Centre" ;
+    ns2:indoorOrOutdoor "Indoor" ;
+    ns2:wifiVoucher "Voucher C" ;
+    ns1:lat 53.211432000000002 ;
+    ns1:long -6.121499000000000 .
+
+<http://example.org/dlr/id/wifiaccess/34> a ns2:Infrastructure ;
+    rdfs:label "Furry Hill" ;
+    ns2:indoorOrOutdoor "Indoor" ;
+    ns2:wifiVoucher "Voucher C" ;
+    ns1:lat 53.278461999999998 ;
+    ns1:long -6.229766000000000 .
+
+<http://example.org/dlr/id/wifiaccess/35> a ns2:Infrastructure ;
+    rdfs:label "Loughlinstown Community Rooms" ;
+    ns2:indoorOrOutdoor "Indoor" ;
+    ns2:wifiVoucher "Voucher C" ;
+    ns1:lat 53.247002999999999 ;
+    ns1:long -6.129894000000000 .
+
+<http://example.org/dlr/id/wifiaccess/36> a ns2:Infrastructure ;
+    rdfs:label "Loughlinstown Community Rooms" ;
+    ns2:indoorOrOutdoor "Outdoor" ;
+    ns2:wifiVoucher "Voucher C" ;
+    ns1:lat 53.247002999999999 ;
+    ns1:long -6.129894000000000 .
+
+<http://example.org/dlr/id/wifiaccess/37> a ns2:Infrastructure ;
+    rdfs:label "Shanganagh Park House" ;
+    ns2:indoorOrOutdoor "Indoor" ;
+    ns2:wifiVoucher "Voucher C" ;
+    ns1:lat 53.238666000000002 ;
+    ns1:long -6.119995000000000 .
+
+<http://example.org/dlr/id/wifiaccess/38> a ns2:Infrastructure ;
+    rdfs:label "Shanganagh Park House" ;
+    ns2:indoorOrOutdoor "Outdoor" ;
+    ns2:wifiVoucher "Voucher C" ;
+    ns1:lat 53.238666000000002 ;
+    ns1:long -6.119995000000000 .
+
+<http://example.org/dlr/id/wifiaccess/39> a ns2:Infrastructure ;
+    rdfs:label "Dundrum Library" ;
+    ns2:indoorOrOutdoor "Outdoor" ;
+    ns2:wifiVoucher "Voucher D" ;
+    ns1:lat 53.292619999999999 ;
+    ns1:long -6.246841000000000 .
+
+<http://example.org/dlr/id/wifiaccess/4> a ns2:Infrastructure ;
+    rdfs:label "DLR Baths Lobby" ;
+    ns2:indoorOrOutdoor "Outdoor" ;
+    ns2:wifiVoucher "Voucher A" ;
+    ns1:lat 53.291034000000003 ;
+    ns1:long -6.127805000000000 .
+
+<http://example.org/dlr/id/wifiaccess/40> a ns2:Infrastructure ;
+    rdfs:label "Essence Café Dundrum" ;
+    ns2:indoorOrOutdoor "Outdoor" ;
+    ns2:wifiVoucher "Voucher D" ;
+    ns1:lat 53.290019000000001 ;
+    ns1:long -6.244500000000000 .
+
+<http://example.org/dlr/id/wifiaccess/41> a ns2:Infrastructure ;
+    rdfs:label "Loreto Court Community Rooms" ;
+    ns2:indoorOrOutdoor "Indoor" ;
+    ns2:wifiVoucher "Voucher D" ;
+    ns1:lat 53.292020999999998 ;
+    ns1:long -6.271655000000000 .
+
+<http://example.org/dlr/id/wifiaccess/42> a ns2:Infrastructure ;
+    rdfs:label "Loreto Court Community Rooms" ;
+    ns2:indoorOrOutdoor "Outdoor" ;
+    ns2:wifiVoucher "Voucher D" ;
+    ns1:lat 53.292020999999998 ;
+    ns1:long -6.271655000000000 .
+
+<http://example.org/dlr/id/wifiaccess/43> a ns2:Infrastructure ;
+    rdfs:label "Nutgrove Loreto Community Facility" ;
+    ns2:indoorOrOutdoor "Indoor" ;
+    ns2:wifiVoucher "Voucher D" ;
+    ns1:lat 53.291891000000000 ;
+    ns1:long -6.274821000000000 .
+
+<http://example.org/dlr/id/wifiaccess/44> a ns2:Infrastructure ;
+    rdfs:label "Nutgrove Loreto Community Facility" ;
+    ns2:indoorOrOutdoor "Outdoor" ;
+    ns2:wifiVoucher "Voucher D" ;
+    ns1:lat 53.291891000000000 ;
+    ns1:long -6.274821000000000 .
+
+<http://example.org/dlr/id/wifiaccess/45> a ns2:Infrastructure ;
+    rdfs:label "SJOG Burton Hall" ;
+    ns2:indoorOrOutdoor "Indoor" ;
+    ns2:wifiVoucher "Voucher D" ;
+    ns1:lat 53.272615000000002 ;
+    ns1:long -6.206607000000000 .
+
+<http://example.org/dlr/id/wifiaccess/46> a ns2:Infrastructure ;
+    rdfs:label "SJOG Burton Hall" ;
+    ns2:indoorOrOutdoor "Outdoor" ;
+    ns2:wifiVoucher "Voucher D" ;
+    ns1:lat 53.272615000000002 ;
+    ns1:long -6.206607000000000 .
+
+<http://example.org/dlr/id/wifiaccess/47> a ns2:Infrastructure ;
+    rdfs:label "St. Nathys Community Centre" ;
+    ns2:indoorOrOutdoor "Indoor" ;
+    ns2:wifiVoucher "Voucher D" ;
+    ns1:lat 53.294981999999997 ;
+    ns1:long -6.258227000000000 .
+
+<http://example.org/dlr/id/wifiaccess/48> a ns2:Infrastructure ;
+    rdfs:label "St. Nathys Community Centre" ;
+    ns2:indoorOrOutdoor "Outdoor" ;
+    ns2:wifiVoucher "Voucher D" ;
+    ns1:lat 53.294981999999997 ;
+    ns1:long -6.258227000000000 .
+
+<http://example.org/dlr/id/wifiaccess/49> a ns2:Infrastructure ;
+    rdfs:label "Stepaside, Flemings" ;
+    ns2:indoorOrOutdoor "Outdoor" ;
+    ns2:wifiVoucher "Voucher D" ;
+    ns1:lat 53.252701000000002 ;
+    ns1:long -6.214492000000000 .
+
+<http://example.org/dlr/id/wifiaccess/5> a ns2:Infrastructure ;
+    rdfs:label "DLR Baths Outdoor" ;
+    ns2:indoorOrOutdoor "Outdoor" ;
+    ns2:wifiVoucher "Voucher A" ;
+    ns1:lat 53.291077000000001 ;
+    ns1:long -6.128007000000000 .
+
+<http://example.org/dlr/id/wifiaccess/6> a ns2:Infrastructure ;
+    rdfs:label "DLR Dock Tower" ;
+    ns2:indoorOrOutdoor "Outdoor" ;
+    ns2:wifiVoucher "Voucher A" ;
+    ns1:lat 53.296942000000001 ;
+    ns1:long -6.133232000000000 .
+
+<http://example.org/dlr/id/wifiaccess/7> a ns2:Infrastructure ;
+    rdfs:label "DLR Pier" ;
+    ns2:indoorOrOutdoor "Outdoor" ;
+    ns2:wifiVoucher "Voucher A" ;
+    ns1:lat 53.295940000000002 ;
+    ns1:long -6.132620000000000 .
+
+<http://example.org/dlr/id/wifiaccess/8> a ns2:Infrastructure ;
+    rdfs:label "DLR Plaza" ;
+    ns2:indoorOrOutdoor "Outdoor" ;
+    ns2:wifiVoucher "Voucher A" ;
+    ns1:lat 53.295475000000003 ;
+    ns1:long -6.133941000000000 .
+
+<http://example.org/dlr/id/wifiaccess/9> a ns2:Infrastructure ;
+    rdfs:label "Killiney beach, Lifeguard Hut" ;
+    ns2:indoorOrOutdoor "Outdoor" ;
+    ns2:wifiVoucher "Voucher A" ;
+    ns1:lat 53.257911999999997 ;
+    ns1:long -6.112484000000000 .
+
