@@ -69,3 +69,12 @@
 * Corrected spelling of Dun Laoghaire
 * Removed superfluous information from location names e.g. "(new counter)"
 
+**dlr_publictoilets.csv:**
+
+* Standardised `_id` header to `OBJECTID`.
+
+**dlr_wifiaccess.csv:**
+
+* Standardised headers for IDs, voucher, and geographic coordinates.
+* Removed excess spaces and location-name typos.
+* Removed two duplicate indoor records and updated `OBJECTID` to match.
