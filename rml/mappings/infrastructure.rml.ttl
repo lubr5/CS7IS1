@@ -37,7 +37,7 @@
     ] ;
     rr:predicateObjectMap [
         rr:predicate rdfs:label ;
-        rr:objectMap [ rml:reference "Address" ]
+        rr:objectMap [ rml:reference "Name" ]
     ] ;
     rr:predicateObjectMap [
         rr:predicate dlr:wifiVoucher ;

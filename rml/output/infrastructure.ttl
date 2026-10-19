@@ -123,12 +123,7 @@
 
 <http://example.org/dlr/id/wifiaccess/16> a ns1:Infrastructure ;
     rdfs:label "Deerpark, Tennis Club" ;
-    ns1:indoorOrOutdoor "Indoor" ;
-    ns1:wifiVoucher "Voucher B" .
-
-<http://example.org/dlr/id/wifiaccess/17> a ns1:Infrastructure ;
-    rdfs:label "Deerpark, Tennis Club" ;
-    ns1:indoorOrOutdoor "Outdoor" ;
+    ns1:indoorOrOutdoor "Indoor/Outdoor" ;
     ns1:wifiVoucher "Voucher B" .
 
 <http://example.org/dlr/id/wifiaccess/18> a ns1:Infrastructure ;
@@ -148,12 +143,7 @@
 
 <http://example.org/dlr/id/wifiaccess/20> a ns1:Infrastructure ;
     rdfs:label "Kirwan Park, DeLaSalle" ;
-    ns1:indoorOrOutdoor "Indoor" ;
-    ns1:wifiVoucher "Voucher B" .
-
-<http://example.org/dlr/id/wifiaccess/21> a ns1:Infrastructure ;
-    rdfs:label "Kirwan Park, DeLaSalle" ;
-    ns1:indoorOrOutdoor "Outdoor" ;
+    ns1:indoorOrOutdoor "Indoor/Outdoor" ;
     ns1:wifiVoucher "Voucher B" .
 
 <http://example.org/dlr/id/wifiaccess/22> a ns1:Infrastructure ;
@@ -168,12 +158,7 @@
 
 <http://example.org/dlr/id/wifiaccess/24> a ns1:Infrastructure ;
     rdfs:label "Sandyford Village, Nectar" ;
-    ns1:indoorOrOutdoor "Indoor" ;
-    ns1:wifiVoucher "Voucher B" .
-
-<http://example.org/dlr/id/wifiaccess/25> a ns1:Infrastructure ;
-    rdfs:label "Sandyford Village, Nectar" ;
-    ns1:indoorOrOutdoor "Outdoor" ;
+    ns1:indoorOrOutdoor "Indoor/Outdoor" ;
     ns1:wifiVoucher "Voucher B" .
 
 <http://example.org/dlr/id/wifiaccess/26> a ns1:Infrastructure ;
@@ -193,18 +178,13 @@
 
 <http://example.org/dlr/id/wifiaccess/29> a ns1:Infrastructure ;
     rdfs:label "Cabinteely FC, Kilbogget" ;
-    ns1:indoorOrOutdoor "Indoor" ;
+    ns1:indoorOrOutdoor "Indoor/Outdoor" ;
     ns1:wifiVoucher "Voucher C" .
 
 <http://example.org/dlr/id/wifiaccess/3> a ns1:Infrastructure ;
     rdfs:label "DLR Baths Café" ;
     ns1:indoorOrOutdoor "Outdoor" ;
     ns1:wifiVoucher "Voucher A" .
-
-<http://example.org/dlr/id/wifiaccess/30> a ns1:Infrastructure ;
-    rdfs:label "Cabinteely FC, Kilbogget" ;
-    ns1:indoorOrOutdoor "Outdoor" ;
-    ns1:wifiVoucher "Voucher C" .
 
 <http://example.org/dlr/id/wifiaccess/31> a ns1:Infrastructure ;
     rdfs:label "Cabinteely Grainstore" ;
@@ -228,22 +208,12 @@
 
 <http://example.org/dlr/id/wifiaccess/35> a ns1:Infrastructure ;
     rdfs:label "Loughlinstown Community Rooms" ;
-    ns1:indoorOrOutdoor "Indoor" ;
-    ns1:wifiVoucher "Voucher C" .
-
-<http://example.org/dlr/id/wifiaccess/36> a ns1:Infrastructure ;
-    rdfs:label "Loughlinstown Community Rooms" ;
-    ns1:indoorOrOutdoor "Outdoor" ;
+    ns1:indoorOrOutdoor "Indoor/Outdoor" ;
     ns1:wifiVoucher "Voucher C" .
 
 <http://example.org/dlr/id/wifiaccess/37> a ns1:Infrastructure ;
     rdfs:label "Shanganagh Park House" ;
-    ns1:indoorOrOutdoor "Indoor" ;
-    ns1:wifiVoucher "Voucher C" .
-
-<http://example.org/dlr/id/wifiaccess/38> a ns1:Infrastructure ;
-    rdfs:label "Shanganagh Park House" ;
-    ns1:indoorOrOutdoor "Outdoor" ;
+    ns1:indoorOrOutdoor "Indoor/Outdoor" ;
     ns1:wifiVoucher "Voucher C" .
 
 <http://example.org/dlr/id/wifiaccess/39> a ns1:Infrastructure ;
@@ -263,42 +233,22 @@
 
 <http://example.org/dlr/id/wifiaccess/41> a ns1:Infrastructure ;
     rdfs:label "Loreto Court Community Rooms" ;
-    ns1:indoorOrOutdoor "Indoor" ;
-    ns1:wifiVoucher "Voucher D" .
-
-<http://example.org/dlr/id/wifiaccess/42> a ns1:Infrastructure ;
-    rdfs:label "Loreto Court Community Rooms" ;
-    ns1:indoorOrOutdoor "Outdoor" ;
+    ns1:indoorOrOutdoor "Indoor/Outdoor" ;
     ns1:wifiVoucher "Voucher D" .
 
 <http://example.org/dlr/id/wifiaccess/43> a ns1:Infrastructure ;
     rdfs:label "Nutgrove Loreto Community Facility" ;
-    ns1:indoorOrOutdoor "Indoor" ;
-    ns1:wifiVoucher "Voucher D" .
-
-<http://example.org/dlr/id/wifiaccess/44> a ns1:Infrastructure ;
-    rdfs:label "Nutgrove Loreto Community Facility" ;
-    ns1:indoorOrOutdoor "Outdoor" ;
+    ns1:indoorOrOutdoor "Indoor/Outdoor" ;
     ns1:wifiVoucher "Voucher D" .
 
 <http://example.org/dlr/id/wifiaccess/45> a ns1:Infrastructure ;
     rdfs:label "SJOG Burton Hall" ;
-    ns1:indoorOrOutdoor "Indoor" ;
-    ns1:wifiVoucher "Voucher D" .
-
-<http://example.org/dlr/id/wifiaccess/46> a ns1:Infrastructure ;
-    rdfs:label "SJOG Burton Hall" ;
-    ns1:indoorOrOutdoor "Outdoor" ;
+    ns1:indoorOrOutdoor "Indoor/Outdoor" ;
     ns1:wifiVoucher "Voucher D" .
 
 <http://example.org/dlr/id/wifiaccess/47> a ns1:Infrastructure ;
     rdfs:label "St. Nathys Community Centre" ;
-    ns1:indoorOrOutdoor "Indoor" ;
-    ns1:wifiVoucher "Voucher D" .
-
-<http://example.org/dlr/id/wifiaccess/48> a ns1:Infrastructure ;
-    rdfs:label "St. Nathys Community Centre" ;
-    ns1:indoorOrOutdoor "Outdoor" ;
+    ns1:indoorOrOutdoor "Indoor/Outdoor" ;
     ns1:wifiVoucher "Voucher D" .
 
 <http://example.org/dlr/id/wifiaccess/49> a ns1:Infrastructure ;

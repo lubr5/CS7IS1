@@ -4,13 +4,19 @@
 
 <http://example.org/dlr/id/park/8> ns1:nearTo <http://example.org/dlr/id/counter/1> .
 
+<http://example.org/dlr/id/publictoilet/11> ns1:nearTo <http://example.org/dlr/id/counter/1> .
+
+<http://example.org/dlr/id/publictoilet/12> ns1:nearTo <http://example.org/dlr/id/counter/1> .
+
+<http://example.org/dlr/id/publictoilet/13> ns1:nearTo <http://example.org/dlr/id/counter/8> .
+
 <http://example.org/dlr/id/tennis/7> ns1:nearTo <http://example.org/dlr/id/counter/8> .
 
-<http://example.org/dlr/id/counter/15> ns1:nearTo <http://example.org/dlr/id/leisurecentre/1>,
-        <http://example.org/dlr/id/park/14> .
+<http://example.org/dlr/id/wifiaccess/10> ns1:nearTo <http://example.org/dlr/id/counter/1> .
 
-<http://example.org/dlr/id/counter/16> ns1:nearTo <http://example.org/dlr/id/leisurecentre/1>,
-        <http://example.org/dlr/id/park/14> .
+<http://example.org/dlr/id/wifiaccess/2> ns1:nearTo <http://example.org/dlr/id/counter/1> .
+
+<http://example.org/dlr/id/wifiaccess/23> ns1:nearTo <http://example.org/dlr/id/counter/1> .
 
 <http://example.org/dlr/id/leisurecentre/1> ns1:nearTo <http://example.org/dlr/id/counter/15>,
         <http://example.org/dlr/id/counter/16> .
@@ -21,6 +27,27 @@
 <http://example.org/dlr/id/park/4> ns1:nearTo <http://example.org/dlr/id/counter/4>,
         <http://example.org/dlr/id/counter/8> .
 
+<http://example.org/dlr/id/publictoilet/10> ns1:nearTo <http://example.org/dlr/id/counter/15>,
+        <http://example.org/dlr/id/counter/16> .
+
+<http://example.org/dlr/id/publictoilet/14> ns1:nearTo <http://example.org/dlr/id/counter/13>,
+        <http://example.org/dlr/id/counter/8> .
+
+<http://example.org/dlr/id/publictoilet/16> ns1:nearTo <http://example.org/dlr/id/counter/12>,
+        <http://example.org/dlr/id/counter/13> .
+
+<http://example.org/dlr/id/publictoilet/18> ns1:nearTo <http://example.org/dlr/id/counter/1>,
+        <http://example.org/dlr/id/counter/12> .
+
+<http://example.org/dlr/id/publictoilet/19> ns1:nearTo <http://example.org/dlr/id/counter/1>,
+        <http://example.org/dlr/id/counter/12> .
+
+<http://example.org/dlr/id/publictoilet/20> ns1:nearTo <http://example.org/dlr/id/counter/1>,
+        <http://example.org/dlr/id/counter/12> .
+
+<http://example.org/dlr/id/publictoilet/21> ns1:nearTo <http://example.org/dlr/id/counter/1>,
+        <http://example.org/dlr/id/counter/12> .
+
 <http://example.org/dlr/id/tennis/4> ns1:nearTo <http://example.org/dlr/id/counter/4>,
         <http://example.org/dlr/id/counter/8> .
 
@@ -30,11 +57,46 @@
 <http://example.org/dlr/id/tennis/9> ns1:nearTo <http://example.org/dlr/id/counter/1>,
         <http://example.org/dlr/id/counter/12> .
 
+<http://example.org/dlr/id/wifiaccess/1> ns1:nearTo <http://example.org/dlr/id/counter/4>,
+        <http://example.org/dlr/id/counter/8> .
+
+<http://example.org/dlr/id/wifiaccess/12> ns1:nearTo <http://example.org/dlr/id/counter/1>,
+        <http://example.org/dlr/id/counter/12> .
+
+<http://example.org/dlr/id/wifiaccess/13> ns1:nearTo <http://example.org/dlr/id/counter/1>,
+        <http://example.org/dlr/id/counter/12> .
+
+<http://example.org/dlr/id/wifiaccess/14> ns1:nearTo <http://example.org/dlr/id/counter/13>,
+        <http://example.org/dlr/id/counter/8> .
+
+<http://example.org/dlr/id/wifiaccess/28> ns1:nearTo <http://example.org/dlr/id/counter/15>,
+        <http://example.org/dlr/id/counter/16> .
+
+<http://example.org/dlr/id/wifiaccess/29> ns1:nearTo <http://example.org/dlr/id/counter/15>,
+        <http://example.org/dlr/id/counter/16> .
+
+<http://example.org/dlr/id/wifiaccess/35> ns1:nearTo <http://example.org/dlr/id/counter/15>,
+        <http://example.org/dlr/id/counter/16> .
+
+<http://example.org/dlr/id/wifiaccess/37> ns1:nearTo <http://example.org/dlr/id/counter/15>,
+        <http://example.org/dlr/id/counter/16> .
+
+<http://example.org/dlr/id/wifiaccess/9> ns1:nearTo <http://example.org/dlr/id/counter/15>,
+        <http://example.org/dlr/id/counter/16> .
+
 <http://example.org/dlr/id/leisurecentre/2> ns1:nearTo <http://example.org/dlr/id/counter/12>,
         <http://example.org/dlr/id/counter/13>,
         <http://example.org/dlr/id/counter/8> .
 
 <http://example.org/dlr/id/park/11> ns1:nearTo <http://example.org/dlr/id/counter/1>,
+        <http://example.org/dlr/id/counter/12>,
+        <http://example.org/dlr/id/counter/13> .
+
+<http://example.org/dlr/id/publictoilet/15> ns1:nearTo <http://example.org/dlr/id/counter/12>,
+        <http://example.org/dlr/id/counter/13>,
+        <http://example.org/dlr/id/counter/8> .
+
+<http://example.org/dlr/id/publictoilet/17> ns1:nearTo <http://example.org/dlr/id/counter/1>,
         <http://example.org/dlr/id/counter/12>,
         <http://example.org/dlr/id/counter/13> .
 
@@ -46,10 +108,21 @@
         <http://example.org/dlr/id/counter/12>,
         <http://example.org/dlr/id/counter/13> .
 
-<http://example.org/dlr/id/counter/4> ns1:nearTo <http://example.org/dlr/id/park/2>,
-        <http://example.org/dlr/id/park/4>,
-        <http://example.org/dlr/id/tennis/4>,
-        <http://example.org/dlr/id/tennis/6> .
+<http://example.org/dlr/id/wifiaccess/11> ns1:nearTo <http://example.org/dlr/id/counter/1>,
+        <http://example.org/dlr/id/counter/12>,
+        <http://example.org/dlr/id/counter/13> .
+
+<http://example.org/dlr/id/wifiaccess/3> ns1:nearTo <http://example.org/dlr/id/counter/1>,
+        <http://example.org/dlr/id/counter/12>,
+        <http://example.org/dlr/id/counter/13> .
+
+<http://example.org/dlr/id/wifiaccess/4> ns1:nearTo <http://example.org/dlr/id/counter/1>,
+        <http://example.org/dlr/id/counter/12>,
+        <http://example.org/dlr/id/counter/13> .
+
+<http://example.org/dlr/id/wifiaccess/5> ns1:nearTo <http://example.org/dlr/id/counter/1>,
+        <http://example.org/dlr/id/counter/12>,
+        <http://example.org/dlr/id/counter/13> .
 
 <http://example.org/dlr/id/leisurecentre/5> ns1:nearTo <http://example.org/dlr/id/counter/1>,
         <http://example.org/dlr/id/counter/12>,
@@ -61,34 +134,128 @@
         <http://example.org/dlr/id/counter/13>,
         <http://example.org/dlr/id/counter/8> .
 
-<http://example.org/dlr/id/counter/1> ns1:nearTo <http://example.org/dlr/id/leisurecentre/5>,
-        <http://example.org/dlr/id/park/11>,
-        <http://example.org/dlr/id/park/8>,
-        <http://example.org/dlr/id/tennis/1>,
-        <http://example.org/dlr/id/tennis/8>,
-        <http://example.org/dlr/id/tennis/9> .
+<http://example.org/dlr/id/wifiaccess/6> ns1:nearTo <http://example.org/dlr/id/counter/1>,
+        <http://example.org/dlr/id/counter/12>,
+        <http://example.org/dlr/id/counter/13>,
+        <http://example.org/dlr/id/counter/8> .
 
-<http://example.org/dlr/id/counter/13> ns1:nearTo <http://example.org/dlr/id/leisurecentre/2>,
-        <http://example.org/dlr/id/leisurecentre/5>,
-        <http://example.org/dlr/id/park/11>,
-        <http://example.org/dlr/id/skatepark/1>,
-        <http://example.org/dlr/id/tennis/1>,
-        <http://example.org/dlr/id/tennis/8> .
+<http://example.org/dlr/id/wifiaccess/7> ns1:nearTo <http://example.org/dlr/id/counter/1>,
+        <http://example.org/dlr/id/counter/12>,
+        <http://example.org/dlr/id/counter/13>,
+        <http://example.org/dlr/id/counter/8> .
 
-<http://example.org/dlr/id/counter/12> ns1:nearTo <http://example.org/dlr/id/leisurecentre/2>,
-        <http://example.org/dlr/id/leisurecentre/5>,
-        <http://example.org/dlr/id/park/11>,
-        <http://example.org/dlr/id/skatepark/1>,
-        <http://example.org/dlr/id/tennis/1>,
-        <http://example.org/dlr/id/tennis/8>,
-        <http://example.org/dlr/id/tennis/9> .
+<http://example.org/dlr/id/wifiaccess/8> ns1:nearTo <http://example.org/dlr/id/counter/1>,
+        <http://example.org/dlr/id/counter/12>,
+        <http://example.org/dlr/id/counter/13>,
+        <http://example.org/dlr/id/counter/8> .
+
+<http://example.org/dlr/id/counter/4> ns1:nearTo <http://example.org/dlr/id/park/2>,
+        <http://example.org/dlr/id/park/4>,
+        <http://example.org/dlr/id/tennis/4>,
+        <http://example.org/dlr/id/tennis/6>,
+        <http://example.org/dlr/id/wifiaccess/1> .
+
+<http://example.org/dlr/id/counter/15> ns1:nearTo <http://example.org/dlr/id/leisurecentre/1>,
+        <http://example.org/dlr/id/park/14>,
+        <http://example.org/dlr/id/publictoilet/10>,
+        <http://example.org/dlr/id/wifiaccess/28>,
+        <http://example.org/dlr/id/wifiaccess/29>,
+        <http://example.org/dlr/id/wifiaccess/35>,
+        <http://example.org/dlr/id/wifiaccess/37>,
+        <http://example.org/dlr/id/wifiaccess/9> .
+
+<http://example.org/dlr/id/counter/16> ns1:nearTo <http://example.org/dlr/id/leisurecentre/1>,
+        <http://example.org/dlr/id/park/14>,
+        <http://example.org/dlr/id/publictoilet/10>,
+        <http://example.org/dlr/id/wifiaccess/28>,
+        <http://example.org/dlr/id/wifiaccess/29>,
+        <http://example.org/dlr/id/wifiaccess/35>,
+        <http://example.org/dlr/id/wifiaccess/37>,
+        <http://example.org/dlr/id/wifiaccess/9> .
 
 <http://example.org/dlr/id/counter/8> ns1:nearTo <http://example.org/dlr/id/leisurecentre/2>,
         <http://example.org/dlr/id/leisurecentre/5>,
         <http://example.org/dlr/id/park/4>,
+        <http://example.org/dlr/id/publictoilet/13>,
+        <http://example.org/dlr/id/publictoilet/14>,
+        <http://example.org/dlr/id/publictoilet/15>,
         <http://example.org/dlr/id/skatepark/1>,
         <http://example.org/dlr/id/tennis/4>,
         <http://example.org/dlr/id/tennis/6>,
         <http://example.org/dlr/id/tennis/7>,
-        <http://example.org/dlr/id/tennis/8> .
+        <http://example.org/dlr/id/tennis/8>,
+        <http://example.org/dlr/id/wifiaccess/1>,
+        <http://example.org/dlr/id/wifiaccess/14>,
+        <http://example.org/dlr/id/wifiaccess/6>,
+        <http://example.org/dlr/id/wifiaccess/7>,
+        <http://example.org/dlr/id/wifiaccess/8> .
+
+<http://example.org/dlr/id/counter/13> ns1:nearTo <http://example.org/dlr/id/leisurecentre/2>,
+        <http://example.org/dlr/id/leisurecentre/5>,
+        <http://example.org/dlr/id/park/11>,
+        <http://example.org/dlr/id/publictoilet/14>,
+        <http://example.org/dlr/id/publictoilet/15>,
+        <http://example.org/dlr/id/publictoilet/16>,
+        <http://example.org/dlr/id/publictoilet/17>,
+        <http://example.org/dlr/id/skatepark/1>,
+        <http://example.org/dlr/id/tennis/1>,
+        <http://example.org/dlr/id/tennis/8>,
+        <http://example.org/dlr/id/wifiaccess/11>,
+        <http://example.org/dlr/id/wifiaccess/14>,
+        <http://example.org/dlr/id/wifiaccess/3>,
+        <http://example.org/dlr/id/wifiaccess/4>,
+        <http://example.org/dlr/id/wifiaccess/5>,
+        <http://example.org/dlr/id/wifiaccess/6>,
+        <http://example.org/dlr/id/wifiaccess/7>,
+        <http://example.org/dlr/id/wifiaccess/8> .
+
+<http://example.org/dlr/id/counter/12> ns1:nearTo <http://example.org/dlr/id/leisurecentre/2>,
+        <http://example.org/dlr/id/leisurecentre/5>,
+        <http://example.org/dlr/id/park/11>,
+        <http://example.org/dlr/id/publictoilet/15>,
+        <http://example.org/dlr/id/publictoilet/16>,
+        <http://example.org/dlr/id/publictoilet/17>,
+        <http://example.org/dlr/id/publictoilet/18>,
+        <http://example.org/dlr/id/publictoilet/19>,
+        <http://example.org/dlr/id/publictoilet/20>,
+        <http://example.org/dlr/id/publictoilet/21>,
+        <http://example.org/dlr/id/skatepark/1>,
+        <http://example.org/dlr/id/tennis/1>,
+        <http://example.org/dlr/id/tennis/8>,
+        <http://example.org/dlr/id/tennis/9>,
+        <http://example.org/dlr/id/wifiaccess/11>,
+        <http://example.org/dlr/id/wifiaccess/12>,
+        <http://example.org/dlr/id/wifiaccess/13>,
+        <http://example.org/dlr/id/wifiaccess/3>,
+        <http://example.org/dlr/id/wifiaccess/4>,
+        <http://example.org/dlr/id/wifiaccess/5>,
+        <http://example.org/dlr/id/wifiaccess/6>,
+        <http://example.org/dlr/id/wifiaccess/7>,
+        <http://example.org/dlr/id/wifiaccess/8> .
+
+<http://example.org/dlr/id/counter/1> ns1:nearTo <http://example.org/dlr/id/leisurecentre/5>,
+        <http://example.org/dlr/id/park/11>,
+        <http://example.org/dlr/id/park/8>,
+        <http://example.org/dlr/id/publictoilet/11>,
+        <http://example.org/dlr/id/publictoilet/12>,
+        <http://example.org/dlr/id/publictoilet/17>,
+        <http://example.org/dlr/id/publictoilet/18>,
+        <http://example.org/dlr/id/publictoilet/19>,
+        <http://example.org/dlr/id/publictoilet/20>,
+        <http://example.org/dlr/id/publictoilet/21>,
+        <http://example.org/dlr/id/tennis/1>,
+        <http://example.org/dlr/id/tennis/8>,
+        <http://example.org/dlr/id/tennis/9>,
+        <http://example.org/dlr/id/wifiaccess/10>,
+        <http://example.org/dlr/id/wifiaccess/11>,
+        <http://example.org/dlr/id/wifiaccess/12>,
+        <http://example.org/dlr/id/wifiaccess/13>,
+        <http://example.org/dlr/id/wifiaccess/2>,
+        <http://example.org/dlr/id/wifiaccess/23>,
+        <http://example.org/dlr/id/wifiaccess/3>,
+        <http://example.org/dlr/id/wifiaccess/4>,
+        <http://example.org/dlr/id/wifiaccess/5>,
+        <http://example.org/dlr/id/wifiaccess/6>,
+        <http://example.org/dlr/id/wifiaccess/7>,
+        <http://example.org/dlr/id/wifiaccess/8> .
 

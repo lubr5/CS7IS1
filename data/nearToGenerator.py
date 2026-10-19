@@ -17,6 +17,8 @@ AMENITIES = {
     "tennis": ("dlr_tennisclubs.geojson", "dlr_tennisclubs.csv", "Name"),
     "skatepark": ("dlr_skateparks.geojson", "dlr_skateparks.csv", "Name"),
     "leisurecentre": ("dlr_leisurecentres.geojson", "dlr_leisurecentres.csv", "name"),
+    "publictoilet": ("dlr_publictoilets.geojson", "dlr_publictoilets.csv", "Name"),
+    "wifiaccess": ("dlr_wifiaccess.geojson", "dlr_wifiaccess.csv", "Name"),
 }
 
 
@@ -74,7 +76,11 @@ def load_amenities():
         matched = set()
         for feat in features:
             props = feat["properties"]
-            name = norm(props.get("park_name") or props.get("Name") or props.get("name"))
+            name = norm(
+                props.get("park_name")
+                or props.get("Name")
+                or props.get("name")
+            )
             if name not in ids:
                 raise SystemExit(f"{atype}: geojson feature '{name}' has no row in {src}")
             geom = feat["geometry"]
@@ -106,7 +112,7 @@ def main():
     order = {t: i for i, t in enumerate(AMENITIES)}
     rows.sort(key=lambda r: (order[r[0]], r[1], r[3], r[2]))
     with open(OUT, "w", encoding="utf-8", newline="") as f:
-        w = csv.writer(f)
+        w = csv.writer(f, lineterminator="\n")
         w.writerow(["amenity_type", "amenity_id", "counter_id", "distance_m"])
         w.writerows(rows)
     print(f"wrote {len(rows)} rows to {OUT}")

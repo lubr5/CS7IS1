@@ -17,7 +17,7 @@
         "Opening Hours": "9am to 5pm Monday to Sunday",
         "ITM_X": 715024.9910748412,
         "ITM_Y": 725936.5193818542,
-        "Address": "Marlay Park Playground restrooms, Grange Rd, Rathfarnham, D16"
+        "Name": "Marlay Park Playground restrooms, Grange Rd, Rathfarnham, D16"
       }
     },
     {
@@ -36,7 +36,7 @@
         "Opening Hours": "9am to 5pm Monday to Sunday",
         "ITM_X": 715141.575374358,
         "ITM_Y": 726232.1106867614,
-        "Address": "Marlay Lower Courtyard: Toilet, Grange Rd, Rathfarnham, D16"
+        "Name": "Marlay Lower Courtyard: Toilet, Grange Rd, Rathfarnham, D16"
       }
     },
     {
@@ -55,7 +55,7 @@
         "Opening Hours": "9am to 5pm Monday to Sunday",
         "ITM_X": 715353.131790506,
         "ITM_Y": 726732.9436661948,
-        "Address": "Marlay Craft Courtyard, Grange Rd, Rathfarnham, D16"
+        "Name": "Marlay Craft Courtyard, Grange Rd, Rathfarnham, D16"
       }
     },
     {
@@ -74,7 +74,7 @@
         "Opening Hours": "9am to 5pm Monday to Sunday",
         "ITM_X": 715322.6389474628,
         "ITM_Y": 726766.0476288246,
-        "Address": "Marlay Craft Courtyard: Changing Place, Grange Rd, Rathfarnham, D16"
+        "Name": "Marlay Craft Courtyard: Changing Place, Grange Rd, Rathfarnham, D16"
       }
     },
     {
@@ -93,7 +93,7 @@
         "Opening Hours": "9am to 5pm Monday to Sunday",
         "ITM_X": 718316.5548489976,
         "ITM_Y": 724557.6172416488,
-        "Address": "Fernhill Car Park, Enniskerry Rd, D18"
+        "Name": "Fernhill Car Park, Enniskerry Rd, D18"
       }
     },
     {
@@ -112,7 +112,7 @@
         "Opening Hours": "9am to 5pm Monday to Sunday",
         "ITM_X": 718416.3257856221,
         "ITM_Y": 724515.7863721796,
-        "Address": "Fernhill House, Enniskerry Rd, D18"
+        "Name": "Fernhill House, Enniskerry Rd, D18"
       }
     },
     {
@@ -131,7 +131,7 @@
         "Opening Hours": "Open Access January to December",
         "ITM_X": 725686.571613768,
         "ITM_Y": 720741.9224972359,
-        "Address": "Shanganagh Park & Cemetery: Changing Places, Shankill, D18"
+        "Name": "Shanganagh Park & Cemetery: Changing Places, Shankill, D18"
       }
     },
     {
@@ -150,7 +150,7 @@
         "Opening Hours": "8am to 5pm Monday to Sunday",
         "ITM_X": 722880.1663434629,
         "ITM_Y": 724996.9891365768,
-        "Address": "Cabinteely Park Playground, Dun Laoghaire-Rathdown, D18"
+        "Name": "Cabinteely Park Playground, Dun Laoghaire-Rathdown, D18"
       }
     },
     {
@@ -169,7 +169,7 @@
         "Opening Hours": "8am to 5pm Monday to Sunday",
         "ITM_X": 722643.0498815848,
         "ITM_Y": 724921.9722732685,
-        "Address": "Cabinteely Park: Changing Places, Dun Laoghaire-Rathdown, D18"
+        "Name": "Cabinteely Park: Changing Places, Dun Laoghaire-Rathdown, D18"
       }
     },
     {
@@ -188,7 +188,7 @@
         "Opening Hours": "All day Monday to Sunday",
         "ITM_X": 725886.4503610455,
         "ITM_Y": 724659.9195056931,
-        "Address": "Killiney Beach Toilet, Station Road, Killiney, D18"
+        "Name": "Killiney Beach Toilet, Station Road, Killiney, D18"
       }
     },
     {
@@ -207,7 +207,7 @@
         "Opening Hours": "8:30 to 4pm Monday to Sunday",
         "ITM_X": 725753.9614585076,
         "ITM_Y": 725691.3612572143,
-        "Address": "Killiney Hill Tea Rooms, Killiney Hill Rd, Killiney, D18"
+        "Name": "Killiney Hill Tea Rooms, Killiney Hill Rd, Killiney, D18"
       }
     },
     {
@@ -226,7 +226,7 @@
         "Opening Hours": "8:30 to 4pm Monday to Sunday",
         "ITM_X": 726430.0220824035,
         "ITM_Y": 725828.1453458546,
-        "Address": "Whiterock Toilet, Killiney Hill Rd, Killiney, D18"
+        "Name": "Whiterock Toilet, Killiney Hill Rd, Killiney, D18"
       }
     },
     {
@@ -245,7 +245,7 @@
         "Opening Hours": "10pm to 4:30pm Monday to Sunday",
         "ITM_X": 722310.6952426072,
         "ITM_Y": 727269.924020714,
-        "Address": "Deansgrange Cemetery, 2 Deansgrange Rd, D18"
+        "Name": "Deansgrange Cemetery, 2 Deansgrange Rd, D18"
       }
     },
     {
@@ -264,7 +264,7 @@
         "Opening Hours": "All day Monday to Sunday",
         "ITM_X": 722655.7710257785,
         "ITM_Y": 729060.5055843132,
-        "Address": "Seapoint Toilet, Seapoint Beach, D4"
+        "Name": "Seapoint Toilet, Seapoint Beach, D4"
       }
     },
     {
@@ -283,7 +283,7 @@
         "Opening Hours": "All day Monday to Sunday",
         "ITM_X": 723909.0455028742,
         "ITM_Y": 729100.5215517627,
-        "Address": "Traders Wharf, Dun Laoghaire-Rathdown, D18"
+        "Name": "Traders Wharf, Dun Laoghaire-Rathdown, D18"
       }
     },
     {
@@ -302,7 +302,7 @@
         "Opening Hours": "All day Monday to Sunday",
         "ITM_X": 724850.7926897482,
         "ITM_Y": 729656.1701844351,
-        "Address": "East Pier Lighthouse, Dun Laoghaire-Rathdown, D18"
+        "Name": "East Pier Lighthouse, Dun Laoghaire-Rathdown, D18"
       }
     },
     {
@@ -321,7 +321,7 @@
         "Opening Hours": "8am to 8pm Monday to Sunday",
         "ITM_X": 724726.0118729429,
         "ITM_Y": 728230.086842592,
-        "Address": "People's Park, Dun Laoghaire-Rathdown, D18"
+        "Name": "People's Park, Dun Laoghaire-Rathdown, D18"
       }
     },
     {
@@ -340,7 +340,7 @@
         "Opening Hours": "8am to 11:30pm Monday to Sunday",
         "ITM_X": 725676.0952108165,
         "ITM_Y": 728000.5541821229,
-        "Address": "Sandycove Avenue West Toilet, Dun Laoghaire-Rathdown, D18"
+        "Name": "Sandycove Avenue West Toilet, Dun Laoghaire-Rathdown, D18"
       }
     },
     {
@@ -359,7 +359,7 @@
         "Opening Hours": "8am to 11:30pm Monday to Sunday",
         "ITM_X": 725871.7194317897,
         "ITM_Y": 728070.6257568495,
-        "Address": "Sandycove Ave East Toilet, Dun Laoghaire-Rathdown, D18"
+        "Name": "Sandycove Ave East Toilet, Dun Laoghaire-Rathdown, D18"
       }
     },
     {
@@ -378,7 +378,7 @@
         "Opening Hours": "8am to 11:30pm Monday to Sunday",
         "ITM_X": 725751.5259054347,
         "ITM_Y": 728221.3122108429,
-        "Address": "Forty Foot, Dun Laoghaire-Rathdown, D18"
+        "Name": "Forty Foot, Dun Laoghaire-Rathdown, D18"
       }
     },
     {
@@ -397,7 +397,7 @@
         "Opening Hours": "All day Monday to Sunday",
         "ITM_X": 726208.396476437,
         "ITM_Y": 727792.1848467608,
-        "Address": "Bullock Harbour Toilet, Dalkey, Dun Laoghaire-Rathdown, D18"
+        "Name": "Bullock Harbour Toilet, Dalkey, Dun Laoghaire-Rathdown, D18"
       }
     }
   ]

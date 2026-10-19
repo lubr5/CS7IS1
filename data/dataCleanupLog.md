@@ -72,7 +72,7 @@
 **dlr_publictoilets.csv:**
 
 * Standardised `_id` header to `OBJECTID`.
-* Normalised headers to use 'Address' instead of 'Location'. 
+* Normalised headers to use 'Name' instead of 'Location'. 
 * Converted from Latitude & Longitude to Northing & Eastings.
 
 **dlr_wifiaccess.csv:**
@@ -80,5 +80,6 @@
 * Standardised headers for IDs, voucher, and geographic coordinates.
 * Removed excess spaces and location-name typos.
 * Removed two duplicate indoor records and updated `OBJECTID` to match.
-* Normalised headers to use 'Address' instead of 'Location'. 
+* Normalised headers to use 'Name' instead of 'Location'.
+* Merged Indoor and Outdoor locations into 'Indoor/Outdoor'.
 * Removed Latitude & Longitude to only include Northing & Eastings.
