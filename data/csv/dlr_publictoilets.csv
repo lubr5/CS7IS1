@@ -1,22 +1,22 @@
-OBJECTID,Location,Opening Hours,Latitude,Longitude
-1,"Marlay Park Playground restrooms, Grange Rd, Rathfarnham, D16",9am to 5pm Monday to Sunday,53.271275,-6.275508
-2,"Marlay Lower Courtyard: Toilet, Grange Rd, Rathfarnham, D16",9am to 5pm Monday to Sunday,53.273905,-6.273654
-3,"Marlay Craft Courtyard, Grange Rd, Rathfarnham, D16",9am to 5pm Monday to Sunday,53.278358,-6.270302
-4,"Marlay Craft Courtyard: Changing Place, Grange Rd, Rathfarnham, D16",9am to 5pm Monday to Sunday,53.278662,-6.270747
-5,"Fernhill Car Park, Enniskerry Rd, D18",9am to 5pm Monday to Sunday,53.258165,-6.226698
-6,"Fernhill House, Enniskerry Rd, D18",9am to 5pm Monday to Sunday,53.257767,-6.225219
-7,"Shanganagh Park & Cemetery: Changing Places, Shankill, D18",Open Access January to December,53.222198,-6.117806
-8,"Cabinteely Park Playground, Dun Laoghaire-Rathdown, D18",8am to 5pm Monday to Sunday,53.261075,-6.158168
-9,"Cabinteely Park: Changing Places, Dun Laoghaire-Rathdown, D18",8am to 5pm Monday to Sunday,53.260456,-6.161749
-10,"Killiney Beach Toilet, Station Road, Killiney, D18",All day Monday to Sunday,53.257343,-6.113267
-11,"Killiney Hill Tea Rooms, Killiney Hill Rd, Killiney, D18",8:30 to 4pm Monday to Sunday,53.266639,-6.114844
-12,"Whiterock Toilet, Killiney Hill Rd, Killiney, D18",8:30 to 4pm Monday to Sunday,53.267707,-6.104661
-13,"Deansgrange Cemetery, 2 Deansgrange Rd, D18",10pm to 4:30pm Monday to Sunday,53.281623,-6.165825
-14,"Seapoint Toilet, Seapoint Beach, D4",All day Monday to Sunday,53.297627,-6.159962
-15,"Traders Wharf, Dun Laoghaire-Rathdown, D18",All day Monday to Sunday,53.297695,-6.141156
-16,"East Pier Lighthouse, Dun Laoghaire-Rathdown, D18",All day Monday to Sunday,53.302465,-6.126818
-17,"People's Park, Dun Laoghaire-Rathdown, D18",8am to 8pm Monday to Sunday,53.289685,-6.129249
-18,"Sandycove Avenue West Toilet, Dun Laoghaire-Rathdown, D18",8am to 11:30pm Monday to Sunday,53.287399,-6.115098
-19,"Sandycove Ave East Toilet, Dun Laoghaire-Rathdown, D18",8am to 11:30pm Monday to Sunday,53.287982,-6.112138
-20,"Forty Foot, Dun Laoghaire-Rathdown, D18",8am to 11:30pm Monday to Sunday,53.289364,-6.11388
-21,"Bullock Harbour Toilet, Dalkey, Dun Laoghaire-Rathdown, D18",All day Monday to Sunday,53.285401,-6.107202
+OBJECTID,Name,Opening Hours,ITM_X,ITM_Y
+1,"Marlay Park Playground restrooms, Grange Rd, Rathfarnham, D16",9am to 5pm Monday to Sunday,715024.9910748412,725936.5193818542
+2,"Marlay Lower Courtyard: Toilet, Grange Rd, Rathfarnham, D16",9am to 5pm Monday to Sunday,715141.575374358,726232.1106867614
+3,"Marlay Craft Courtyard, Grange Rd, Rathfarnham, D16",9am to 5pm Monday to Sunday,715353.131790506,726732.9436661948
+4,"Marlay Craft Courtyard: Changing Place, Grange Rd, Rathfarnham, D16",9am to 5pm Monday to Sunday,715322.6389474628,726766.0476288246
+5,"Fernhill Car Park, Enniskerry Rd, D18",9am to 5pm Monday to Sunday,718316.5548489976,724557.6172416488
+6,"Fernhill House, Enniskerry Rd, D18",9am to 5pm Monday to Sunday,718416.3257856221,724515.7863721796
+7,"Shanganagh Park & Cemetery: Changing Places, Shankill, D18",Open Access January to December,725686.571613768,720741.9224972359
+8,"Cabinteely Park Playground, Dun Laoghaire-Rathdown, D18",8am to 5pm Monday to Sunday,722880.1663434629,724996.9891365768
+9,"Cabinteely Park: Changing Places, Dun Laoghaire-Rathdown, D18",8am to 5pm Monday to Sunday,722643.0498815848,724921.9722732685
+10,"Killiney Beach Toilet, Station Road, Killiney, D18",All day Monday to Sunday,725886.4503610455,724659.9195056931
+11,"Killiney Hill Tea Rooms, Killiney Hill Rd, Killiney, D18",8:30 to 4pm Monday to Sunday,725753.9614585076,725691.3612572143
+12,"Whiterock Toilet, Killiney Hill Rd, Killiney, D18",8:30 to 4pm Monday to Sunday,726430.0220824035,725828.1453458546
+13,"Deansgrange Cemetery, 2 Deansgrange Rd, D18",10pm to 4:30pm Monday to Sunday,722310.6952426072,727269.924020714
+14,"Seapoint Toilet, Seapoint Beach, D4",All day Monday to Sunday,722655.7710257785,729060.5055843132
+15,"Traders Wharf, Dun Laoghaire-Rathdown, D18",All day Monday to Sunday,723909.0455028742,729100.5215517627
+16,"East Pier Lighthouse, Dun Laoghaire-Rathdown, D18",All day Monday to Sunday,724850.7926897482,729656.1701844351
+17,"People's Park, Dun Laoghaire-Rathdown, D18",8am to 8pm Monday to Sunday,724726.0118729429,728230.086842592
+18,"Sandycove Avenue West Toilet, Dun Laoghaire-Rathdown, D18",8am to 11:30pm Monday to Sunday,725676.0952108165,728000.5541821229
+19,"Sandycove Ave East Toilet, Dun Laoghaire-Rathdown, D18",8am to 11:30pm Monday to Sunday,725871.7194317897,728070.6257568495
+20,"Forty Foot, Dun Laoghaire-Rathdown, D18",8am to 11:30pm Monday to Sunday,725751.5259054347,728221.3122108429
+21,"Bullock Harbour Toilet, Dalkey, Dun Laoghaire-Rathdown, D18",All day Monday to Sunday,726208.396476437,727792.1848467608
