@@ -4,13 +4,13 @@
 Design Doc Link: https://docs.google.com/document/d/1unlc_5MTcr2ldhm9-gVFyPqsqi90dCOrYPh6GVP0GxI/edit?tab=t.0 
 
 ### 1. Data Cleanup
-DONE TO AN EXTENT - LUCIA & OLLIE
+✔️ - LUCIA & OLLIE
 
 ### 2. Implement ontology that defines KG schema
-DONE TO AN EXTENT - LUCIA & OLLIE
+✔️  - LUCIA & OLLIE
 
 ### 3. Create at least 30 instance triples w/ RML mapping
-IN PROG - SCOTT
+✔️  - SCOTT & OLLIE
 
 ### 4. Create at least 3 instance validations w/ SHACL
 TODO
