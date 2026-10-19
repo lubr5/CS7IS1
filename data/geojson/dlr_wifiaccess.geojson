@@ -1,0 +1,985 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.184878000417746,
+          53.30425000089876,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1,
+        "WiFi4EU_Voucher": "Voucher A",
+        "Indoor_Or_Outdoor": "Outdoor",
+        "ITM_X": 720976.3230999997,
+        "ITM_Y": 729754.8686999995,
+        "Address": "Blackrock Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.104495999901323,
+          53.277443000553944,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2,
+        "WiFi4EU_Voucher": "Voucher A",
+        "Indoor_Or_Outdoor": "Outdoor",
+        "ITM_X": 726412.2960999999,
+        "ITM_Y": 726911.6067999993,
+        "Address": "Dalkey Library"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.127965000503306,
+          53.29101900075933,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 3,
+        "WiFi4EU_Voucher": "Voucher A",
+        "Indoor_Or_Outdoor": "Outdoor",
+        "ITM_X": 724807.7207000004,
+        "ITM_Y": 728380.7429000009,
+        "Address": "DLR Baths Caf\u00e9"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.1278050007191895,
+          53.29103400063206,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 4,
+        "WiFi4EU_Voucher": "Voucher A",
+        "Indoor_Or_Outdoor": "Outdoor",
+        "ITM_X": 724818.3430000003,
+        "ITM_Y": 728382.6911999993,
+        "Address": "DLR Baths Lobby"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.128007000293004,
+          53.2910770006192,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 5,
+        "WiFi4EU_Voucher": "Voucher A",
+        "Indoor_Or_Outdoor": "Outdoor",
+        "ITM_X": 724804.7517999997,
+        "ITM_Y": 728387.1223000009,
+        "Address": "DLR Baths Outdoor"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.133232000531291,
+          53.296942000842165,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 6,
+        "WiFi4EU_Voucher": "Voucher A",
+        "Indoor_Or_Outdoor": "Outdoor",
+        "ITM_X": 724439.3888999997,
+        "ITM_Y": 729030.5186999999,
+        "Address": "DLR Dock Tower"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.132620000164414,
+          53.29594000051463,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 7,
+        "WiFi4EU_Voucher": "Voucher A",
+        "Indoor_Or_Outdoor": "Outdoor",
+        "ITM_X": 724483.0948999999,
+        "ITM_Y": 728920.1073000003,
+        "Address": "DLR Pier"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.133941000585114,
+          53.29547500103043,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 8,
+        "WiFi4EU_Voucher": "Voucher A",
+        "Indoor_Or_Outdoor": "Outdoor",
+        "ITM_X": 724396.3947000001,
+        "ITM_Y": 728866.0730000008,
+        "Address": "DLR Plaza"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.112484000449966,
+          53.25791200070267,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9,
+        "WiFi4EU_Voucher": "Voucher A",
+        "Indoor_Or_Outdoor": "Outdoor",
+        "ITM_X": 725937.0164999999,
+        "ITM_Y": 724724.6022999994,
+        "Address": "Killiney beach, Lifeguard Hut"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.11480600066703,
+          53.26661700067905,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 10,
+        "WiFi4EU_Voucher": "Voucher A",
+        "Indoor_Or_Outdoor": "Outdoor",
+        "ITM_X": 725756.5606000004,
+        "ITM_Y": 725688.9805999994,
+        "Address": "Killiney Hill Caf\u00e9"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.1293499992526606,
+          53.28966700126966,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 11,
+        "WiFi4EU_Voucher": "Voucher A",
+        "Indoor_Or_Outdoor": "Outdoor",
+        "ITM_X": 724719.3311999999,
+        "ITM_Y": 728227.9080999997,
+        "Address": "People's Park, near Caf\u00e9"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.137067999642909,
+          53.27463300086013,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 12,
+        "WiFi4EU_Voucher": "Voucher A",
+        "Indoor_Or_Outdoor": "Indoor",
+        "ITM_X": 724248.4198000003,
+        "ITM_Y": 726541.8594000004,
+        "Address": "Sallynoggin Community Ctr"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.114244000563425,
+          53.289099000809486,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 13,
+        "WiFi4EU_Voucher": "Voucher A",
+        "Indoor_Or_Outdoor": "Outdoor",
+        "ITM_X": 725728.0378999999,
+        "ITM_Y": 728191.1893000007,
+        "Address": "Sandycove, The Battery"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.159872000329909,
+          53.29767500126118,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 14,
+        "WiFi4EU_Voucher": "Voucher A",
+        "Indoor_Or_Outdoor": "Outdoor",
+        "ITM_X": 722661.6321999999,
+        "ITM_Y": 729066.0004999992,
+        "Address": "Seapoint"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.1891460001263106,
+          53.257178000843005,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 15,
+        "WiFi4EU_Voucher": "Voucher B",
+        "Indoor_Or_Outdoor": "Indoor",
+        "ITM_X": 720824.6111000003,
+        "ITM_Y": 724510.6210999992,
+        "Address": "Ballyogan Parish Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.215574000469139,
+          53.294788000822194,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 16,
+        "WiFi4EU_Voucher": "Voucher B",
+        "Indoor_Or_Outdoor": "Indoor",
+        "ITM_X": 718956.9464999996,
+        "ITM_Y": 728650.6190000009,
+        "Address": "Deerpark, Tennis Club"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.215574000469139,
+          53.294788000822194,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 17,
+        "WiFi4EU_Voucher": "Voucher B",
+        "Indoor_Or_Outdoor": "Outdoor",
+        "ITM_X": 718956.9464999996,
+        "ITM_Y": 728650.6190000009,
+        "Address": "Deerpark, Tennis Club"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.224921000667192,
+          53.257449001119646,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18,
+        "WiFi4EU_Voucher": "Voucher B",
+        "Indoor_Or_Outdoor": "Outdoor",
+        "ITM_X": 718437.0855999999,
+        "ITM_Y": 724480.9008000009,
+        "Address": "Fernhill Gardens"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.215428999873124,
+          53.22302000064736,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 19,
+        "WiFi4EU_Voucher": "Voucher B",
+        "Indoor_Or_Outdoor": "Indoor",
+        "ITM_X": 719165.9664000003,
+        "ITM_Y": 720666.2545999996,
+        "Address": "Glencullen Community Ctr."
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.199021999829495,
+          53.24587800082638,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 20,
+        "WiFi4EU_Voucher": "Voucher B",
+        "Indoor_Or_Outdoor": "Indoor",
+        "ITM_X": 720197.3963000001,
+        "ITM_Y": 723236.7880000006,
+        "Address": "Kirwan Park, DeLaSalle"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.199021999829495,
+          53.24587800082638,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 21,
+        "WiFi4EU_Voucher": "Voucher B",
+        "Indoor_Or_Outdoor": "Outdoor",
+        "ITM_X": 720197.3963000001,
+        "ITM_Y": 723236.7880000006,
+        "Address": "Kirwan Park, DeLaSalle"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.194622999270984,
+          53.290127000771356,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 22,
+        "WiFi4EU_Voucher": "Voucher B",
+        "Indoor_Or_Outdoor": "Outdoor",
+        "ITM_X": 720366.5966999996,
+        "ITM_Y": 728167.1412000004,
+        "Address": "Patrician Villas Community Ctr"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.145670999932507,
+          53.2742720009404,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 23,
+        "WiFi4EU_Voucher": "Voucher B",
+        "Indoor_Or_Outdoor": "Indoor",
+        "ITM_X": 723675.7412,
+        "ITM_Y": 726486.7741999999,
+        "Address": "Rochestown House Community Ctr"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.224784000154835,
+          53.2700010006037,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 24,
+        "WiFi4EU_Voucher": "Voucher B",
+        "Indoor_Or_Outdoor": "Indoor",
+        "ITM_X": 718411.5399000002,
+        "ITM_Y": 725877.6135000009,
+        "Address": "Sandyford Village, Nectar"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.224784000154835,
+          53.2700010006037,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 25,
+        "WiFi4EU_Voucher": "Voucher B",
+        "Indoor_Or_Outdoor": "Outdoor",
+        "ITM_X": 718411.5399000002,
+        "ITM_Y": 725877.6135000009,
+        "Address": "Sandyford Village, Nectar"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.201417000735896,
+          53.247656000973095,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 26,
+        "WiFi4EU_Voucher": "Voucher B",
+        "Indoor_Or_Outdoor": "Outdoor",
+        "ITM_X": 720032.5917999996,
+        "ITM_Y": 723430.5761999991,
+        "Address": "Stepaside All Weather pitches"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.202570999877868,
+          53.24878100063407,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 27,
+        "WiFi4EU_Voucher": "Voucher B",
+        "Indoor_Or_Outdoor": "Outdoor",
+        "ITM_X": 719952.4370999997,
+        "ITM_Y": 723553.8015999999,
+        "Address": "Stepaside Public Golf Course"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.136042000647144,
+          53.25425700088218,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 28,
+        "WiFi4EU_Voucher": "Voucher C",
+        "Indoor_Or_Outdoor": "Indoor",
+        "ITM_X": 724375.9649,
+        "ITM_Y": 724276.7221000008,
+        "Address": "Ballybrack Project Centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.138596000272967,
+          53.25907700133009,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 29,
+        "WiFi4EU_Voucher": "Voucher C",
+        "Indoor_Or_Outdoor": "Indoor",
+        "ITM_X": 724191.5965999998,
+        "ITM_Y": 724808.5277999993,
+        "Address": "Cabinteely FC, Kilbogget"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.138596000272967,
+          53.25907700133009,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 30,
+        "WiFi4EU_Voucher": "Voucher C",
+        "Indoor_Or_Outdoor": "Outdoor",
+        "ITM_X": 724191.5965999998,
+        "ITM_Y": 724808.5277999993,
+        "Address": "Cabinteely FC, Kilbogget"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.161374000426893,
+          53.26024600067774,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 31,
+        "WiFi4EU_Voucher": "Voucher C",
+        "Indoor_Or_Outdoor": "Outdoor",
+        "ITM_X": 722668.6673999997,
+        "ITM_Y": 724899.2522999998,
+        "Address": "Cabinteely Grainstore"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.158207000474341,
+          53.26140700092695,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 32,
+        "WiFi4EU_Voucher": "Voucher C",
+        "Indoor_Or_Outdoor": "Outdoor",
+        "ITM_X": 722876.6128000002,
+        "ITM_Y": 725033.8587999996,
+        "Address": "Cabinteely Park Playground"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.121499000385129,
+          53.211432000634474,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 33,
+        "WiFi4EU_Voucher": "Voucher C",
+        "Indoor_Or_Outdoor": "Indoor",
+        "ITM_X": 725471.4530999996,
+        "ITM_Y": 719537.6841000002,
+        "Address": "Cois Cairn Community Centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.22976600030243,
+          53.27846200102276,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 34,
+        "WiFi4EU_Voucher": "Voucher C",
+        "Indoor_Or_Outdoor": "Indoor",
+        "ITM_X": 718055.9391000001,
+        "ITM_Y": 726810.7107999995,
+        "Address": "Furry Hill"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.129893999448708,
+          53.24700300089092,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 35,
+        "WiFi4EU_Voucher": "Voucher C",
+        "Indoor_Or_Outdoor": "Indoor",
+        "ITM_X": 724807.2739000004,
+        "ITM_Y": 723480.3989000004,
+        "Address": "Loughlinstown Community Rooms"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.129893999448708,
+          53.24700300089092,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 36,
+        "WiFi4EU_Voucher": "Voucher C",
+        "Indoor_Or_Outdoor": "Outdoor",
+        "ITM_X": 724807.2739000004,
+        "ITM_Y": 723480.3989000004,
+        "Address": "Loughlinstown Community Rooms"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.119995000443577,
+          53.238666000602024,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 37,
+        "WiFi4EU_Voucher": "Voucher C",
+        "Indoor_Or_Outdoor": "Indoor",
+        "ITM_X": 725492.2390000001,
+        "ITM_Y": 722570.2025000006,
+        "Address": "Shanganagh Park House"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.119995000443577,
+          53.238666000602024,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 38,
+        "WiFi4EU_Voucher": "Voucher C",
+        "Indoor_Or_Outdoor": "Outdoor",
+        "ITM_X": 725492.2390000001,
+        "ITM_Y": 722570.2025000006,
+        "Address": "Shanganagh Park House"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.246841000394755,
+          53.29262000063228,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 39,
+        "WiFi4EU_Voucher": "Voucher D",
+        "Indoor_Or_Outdoor": "Outdoor",
+        "ITM_X": 716878.6695999997,
+        "ITM_Y": 728357.8134000003,
+        "Address": "Dundrum Library"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.244500000289944,
+          53.2900190011491,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 40,
+        "WiFi4EU_Voucher": "Voucher D",
+        "Indoor_Or_Outdoor": "Outdoor",
+        "ITM_X": 717041.8344999999,
+        "ITM_Y": 728072.2663000003,
+        "Address": "Essence Caf\u00e9 Dundrum"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.27165500028739,
+          53.29202100123192,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 41,
+        "WiFi4EU_Voucher": "Voucher D",
+        "Indoor_Or_Outdoor": "Indoor",
+        "ITM_X": 715226.1392000001,
+        "ITM_Y": 728250.8677999992,
+        "Address": "Loreto Court Community Rooms"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.27165500028739,
+          53.29202100123192,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 42,
+        "WiFi4EU_Voucher": "Voucher D",
+        "Indoor_Or_Outdoor": "Outdoor",
+        "ITM_X": 715226.1392000001,
+        "ITM_Y": 728250.8677999992,
+        "Address": "Loreto Court Community Rooms"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.274821000446385,
+          53.291891000502304,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 43,
+        "WiFi4EU_Voucher": "Voucher D",
+        "Indoor_Or_Outdoor": "Indoor",
+        "ITM_X": 715015.4342,
+        "ITM_Y": 728231.3034000006,
+        "Address": "Nutgrove Loreto Community Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.274821000446385,
+          53.291891000502304,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 44,
+        "WiFi4EU_Voucher": "Voucher D",
+        "Indoor_Or_Outdoor": "Outdoor",
+        "ITM_X": 715015.4342,
+        "ITM_Y": 728231.3034000006,
+        "Address": "Nutgrove Loreto Community Facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.20660700054622,
+          53.27261500054578,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 45,
+        "WiFi4EU_Voucher": "Voucher D",
+        "Indoor_Or_Outdoor": "Indoor",
+        "ITM_X": 719616.5831000004,
+        "ITM_Y": 726198.7050999999,
+        "Address": "SJOG Burton Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.20660700054622,
+          53.27261500054578,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 46,
+        "WiFi4EU_Voucher": "Voucher D",
+        "Indoor_Or_Outdoor": "Outdoor",
+        "ITM_X": 719616.5831000004,
+        "ITM_Y": 726198.7050999999,
+        "Address": "SJOG Burton Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 47,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.258226999477484,
+          53.29498200080642,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 47,
+        "WiFi4EU_Voucher": "Voucher D",
+        "Indoor_Or_Outdoor": "Indoor",
+        "ITM_X": 716113.2540999996,
+        "ITM_Y": 728602.0384,
+        "Address": "St. Nathys Community Centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.258226999477484,
+          53.29498200080642,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 48,
+        "WiFi4EU_Voucher": "Voucher D",
+        "Indoor_Or_Outdoor": "Outdoor",
+        "ITM_X": 716113.2540999996,
+        "ITM_Y": 728602.0384,
+        "Address": "St. Nathys Community Centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.214491999940251,
+          53.252701001047186,
+          0
+        ]
+      },
+      "properties": {
+        "OBJECTID": 49,
+        "WiFi4EU_Voucher": "Voucher D",
+        "Indoor_Or_Outdoor": "Outdoor",
+        "ITM_X": 719146.0623000003,
+        "ITM_Y": 723969.9885000009,
+        "Address": "Stepaside, Flemings"
+      }
+    }
+  ]
+}
