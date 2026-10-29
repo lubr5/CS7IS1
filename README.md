@@ -20,3 +20,6 @@ IN PROG - FINN & DYLAN
 
 ### 6. PDF report of work
 TODO
+
+### 7. Everything Visualised on GraphDB
+PARTIALLY DONE - LUCIA
