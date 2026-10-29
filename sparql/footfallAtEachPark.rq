@@ -1,0 +1,28 @@
+PREFIX dlr:  <http://example.org/dlr/ontology#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT (GROUP_CONCAT(DISTINCT ?parkLabel; separator=" / ") AS ?parkNames) #concat park English & Irish name, separated by /, if Irish name exists
+       ?parkType ?counterLabel ?footfallAtNearestCounter
+WHERE {
+  {
+    
+    SELECT ?park ?counter (SUM(?total) AS ?footfallAtNearestCounter)
+    WHERE {
+      {
+        SELECT DISTINCT ?park ?counter #find park&counter pairs
+        WHERE {
+          ?park a dlr:Park .
+          ?park (dlr:nearestCounter | ^dlr:isNearestCounterFor) ?counter .
+        }
+      }
+      ?obs dlr:recordedBy ?counter ; #add up footfall for each pair
+           dlr:totalCount ?total .
+    }
+    GROUP BY ?park ?counter
+  }
+  ?park rdfs:label ?parkLabel ; #get park name
+        dlr:parkType ?parkType . #get park type
+  ?counter rdfs:label ?counterLabel . #get counter name
+}
+GROUP BY ?park ?parkType ?counterLabel ?footfallAtNearestCounter #one row per park
+ORDER BY DESC(?footfallAtNearestCounter) ?parkNames #highest footfall shown first
