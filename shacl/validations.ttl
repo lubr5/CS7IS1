@@ -12,7 +12,7 @@ dlrsh:ParkShape
     a sh:NodeShape ;
     rdfs:label "Park Shape" ;
     rdfs:comment "Describes what a valid dlr:Park instance looks like" ;
-    sh:targetClass dlr:Park .
+    sh:targetClass dlr:Park ;
     sh:property [
         sh:path rdfs:label ;
         sh:minCount 1 ;
@@ -46,7 +46,7 @@ dlrsh:FootfallCounterShape
     a sh:NodeShape ;
     rdfs:label "Footfall Counter Shape" ;
     rdfs:comment "Describes what a valid dlr:FootfallCounter instance looks like" ;
-    sh:targetClass dlr:FootfallCounter .
+    sh:targetClass dlr:FootfallCounter ;
     sh:property [
         sh:path geo:long ;
         sh:minCount 1 ;
@@ -87,7 +87,7 @@ dlrsh:InfrastructureShape
     a sh:NodeShape ;
     rdfs:label "Infrastructure Shape" ;
     rdfs:comment "Describes what a valid dlr:Infrastructure instance looks like" ;
-    sh:targetClass dlr:Infrastructure .
+    sh:targetClass dlr:Infrastructure ;
     sh:property [
         sh:path rdfs:label ;
         sh:minCount 1 ;
@@ -100,7 +100,7 @@ dlrsh:AreaShape
     a sh:NodeShape ;
     rdfs:label "Area Shape" ;
     rdfs:comment "Describes what a valid dlr:Area instance looks like" ;
-    sh:targetClass dlr:Area .
+    sh:targetClass dlr:Area ;
     sh:property [
         sh:path rdfs:label ;
         sh:minCount 1 ;
@@ -113,7 +113,7 @@ dlrsh:SportsFacilityShape
     a sh:NodeShape ;
     rdfs:label "Sports Facility Shape" ;
     rdfs:comment "Describes what a valid dlr:SportsFacility instance looks like" ;
-    sh:targetClass dlr:SportsFacility .
+    sh:targetClass dlr:SportsFacility ;
     sh:property [
         sh:path rdfs:label ;
         sh:minCount 1 ;
