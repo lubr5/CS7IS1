@@ -4,6 +4,7 @@
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 @prefix dlr:   <http://example.org/dlr/ontology#> .
 @prefix dlrsh: <http://example.org/dlr/shapes#> .
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 
 # 1. Classes Validation - Are all the classes properly formed?
 
@@ -12,6 +13,20 @@ dlrsh:ParkShape
     rdfs:label "Park Shape" ;
     rdfs:comment "Describes what a valid dlr:Park instance looks like" ;
     sh:targetClass dlr:Park .
+    sh:property [
+        sh:path rdfs:label ;
+        sh:minCount 1 ;
+        sh:uniqueLang true ;
+        sh:nodeKind sh:Literal ;
+        sh:message "Every park must have at least 1 rdfs label (one per language en/ga)" ;
+    ] ;
+    sh:property [
+        sh:path dlr:parkType ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:in ("District Park" "Local Park" "Regional Park") ;
+        sh:message "Every park must have exactly 1 dlr:parkType (Regional / Local / District)" ;
+    ] . 
 
 # 3. Does every amenity only have one footfall counter that is considered its nearestTo counter?
 dlrsh:AmenityShape
@@ -23,7 +38,7 @@ dlrsh:AmenityShape
         sh:path [ sh:alternativePath ( dlr:nearestCounter [ sh:inversePath dlr:isNearestCounterFor ] ) ] ; 
         sh:maxCount 1 ;
         sh:class dlr:FootfallCounter ;
-        sh:message "Every amenity myst have exactly 1 footfall counter as its nearest counter" ; 
+        sh:message "Every amenity must have exactly 1 footfall counter as its nearest counter" ; 
     ] .
 
 
@@ -32,6 +47,20 @@ dlrsh:FootfallCounterShape
     rdfs:label "Footfall Counter Shape" ;
     rdfs:comment "Describes what a valid dlr:FootfallCounter instance looks like" ;
     sh:targetClass dlr:FootfallCounter .
+    sh:property [
+        sh:path geo:long ;
+        sh:minCount 1 ;
+        sh:maxCount 1;
+        sh:datatype xsd:decimal ;
+        sh:message "Every footfall counter needs a decimal longitude value" ;
+    ] ;
+    sh:property [
+        sh:path geo:lat ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:decimal ;
+        sh:message "Every footfall counter needs a decimal latitude value" ;
+    ] .
 
 dlrsh:FootfallObservationShape
     a sh:NodeShape ;
@@ -59,15 +88,43 @@ dlrsh:InfrastructureShape
     rdfs:label "Infrastructure Shape" ;
     rdfs:comment "Describes what a valid dlr:Infrastructure instance looks like" ;
     sh:targetClass dlr:Infrastructure .
+    sh:property [
+        sh:path rdfs:label ;
+        sh:minCount 1 ;
+        sh:uniqueLang true ;
+        sh:nodeKind sh:Literal ;
+        sh:message "Every infrastructure item must have at least 1 rdfs:label" ;
+    ] .
 
 dlrsh:AreaShape
     a sh:NodeShape ;
     rdfs:label "Area Shape" ;
     rdfs:comment "Describes what a valid dlr:Area instance looks like" ;
     sh:targetClass dlr:Area .
+    sh:property [
+        sh:path rdfs:label ;
+        sh:minCount 1 ;
+        sh:uniqueLang true ;
+        sh:nodeKind sh:Literal ;
+        sh:message "Every area must have at least 1 rdfs:label" ;
+    ] .
 
 dlrsh:SportsFacilityShape
     a sh:NodeShape ;
     rdfs:label "Sports Facility Shape" ;
     rdfs:comment "Describes what a valid dlr:SportsFacility instance looks like" ;
     sh:targetClass dlr:SportsFacility .
+    sh:property [
+        sh:path rdfs:label ;
+        sh:minCount 1 ;
+        sh:uniqueLang true ;
+        sh:nodeKind sh:Literal ;
+        sh:message "Every sports facility must have at least 1 rdfs:label" ;
+    ] ;
+    sh:property [
+        sh:path dlr:facilityType ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ; 
+        sh:in ("Skate Park" "Leisure Centre" "Tennis Club") ;
+        sh:message "Every sports facility must have exactly 1 dlr:facilityType: Leisure Centre / Skate Park / Tennis Club" ;
+    ] .
