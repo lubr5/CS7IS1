@@ -1,0 +1,65 @@
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dlr:   <http://example.org/dlr/ontology#> .
+@prefix dlrsh: <http://example.org/dlr/shapes#> .
+
+# 1. Classes Validation - Are all the classes properly formed?
+
+dlrsh:ParkShape
+    a sh:NodeShape ;
+    rdfs:label "Park Shape" ;
+    rdfs:comment "Describes what a valid dlr:Park instance looks like" ;
+    sh:targetClass dlr:Park .
+
+dlrsh:AmenityShape
+    a sh:NodeShape ; 
+    rdfs:label "Amenity Shape" ;
+    rdfs:comment "Describes what a valid dlr:Amenity instance looks like" ;
+    sh:targetClass dlr:Amenity .
+
+dlrsh:FootfallCounterShape
+    a sh:NodeShape ;
+    rdfs:label "Footfall Counter Shape" ;
+    rdfs:comment "Describes what a valid dlr:FootfallCounter instance looks like" ;
+    sh:targetClass dlr:FootfallCounter .
+
+dlrsh:FootfallObservationShape
+    a sh:NodeShape ;
+    rdfs:label "Footfall Observation Shape" ;
+    rdfs:comment "Describes what a valid dlr:FootfallObservation instance looks like" ;
+    sh:targetClass dlr:FootfallObservation ;
+# 2. Does every observation have exactly one dlr:recordedBy and dlr:observedAt?
+    sh:property [
+        sh:path dlr:recordedBy ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:message "Every observation must have exactly 1 dlr:recordedBy and it must be a Footfall Counter" ;
+        sh:class dlr:FootfallCounter ; #recordedBy must be a FootfallCounter
+    ] ;
+    sh:property [
+        sh:path dlr:observedAt ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:message "Every observation must have exactly 1 dlr:observedAt and it must be a datetime value" ;
+        sh:datatype xsd:dateTime ; #observedAt must be a datetime
+     ] .
+
+dlrsh:InfrastructureShape
+    a sh:NodeShape ;
+    rdfs:label "Infrastructure Shape" ;
+    rdfs:comment "Describes what a valid dlr:Infrastructure instance looks like" ;
+    sh:targetClass dlr:Infrastructure .
+
+dlrsh:AreaShape
+    a sh:NodeShape ;
+    rdfs:label "Area Shape" ;
+    rdfs:comment "Describes what a valid dlr:Area instance looks like" ;
+    sh:targetClass dlr:Area .
+
+dlrsh:SportsFacilityShape
+    a sh:NodeShape ;
+    rdfs:label "Sports Facility Shape" ;
+    rdfs:comment "Describes what a valid dlr:SportsFacility instance looks like" ;
+    sh:targetClass dlr:SportsFacility .
