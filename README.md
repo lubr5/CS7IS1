@@ -13,13 +13,11 @@ Design Doc Link: https://docs.google.com/document/d/1unlc_5MTcr2ldhm9-gVFyPqsqi9
 ✔️  - SCOTT & OLLIE
 
 ### 4. Create at least 3 instance validations w/ SHACL
-SHAPES FILE - LUCIA <br>
-TARGETS - TBA <br>
-CONSTRAINTS - TBA <br>
-
-_Instance 1: shacl/X.ttl - [descriptive text]_ <br>
-_Instance 2: shacl/X.ttl - [descriptive text]_ <br>
-_Instance 3: shacl/X.ttl - [descriptive text]_ <br>
+IN PROG - LUCIA 
+shacl/validations.ttl
+_Validation 1: Validates that all the classes are correctly structured_ <br>
+_Validation 2: Validates that instances of FootfallObservations have exactly one recordedBy property, and that property is an instance of FootfallCounter. Validates that instances of FootfallObservations have exactly one observedAt property and that property is a datetime value_ <br>
+_Validation 3: Validates that every amenity has only one FootfallCounter considered as its nearestTo counter (real error in ontology!)_<br>
 
 
 ### 5. Create at least 7 queries on the data w/ SPARQL

@@ -13,11 +13,19 @@ dlrsh:ParkShape
     rdfs:comment "Describes what a valid dlr:Park instance looks like" ;
     sh:targetClass dlr:Park .
 
+# 3. Does every amenity only have one footfall counter that is considered its nearestTo counter?
 dlrsh:AmenityShape
     a sh:NodeShape ; 
     rdfs:label "Amenity Shape" ;
     rdfs:comment "Describes what a valid dlr:Amenity instance looks like" ;
-    sh:targetClass dlr:Amenity .
+    sh:targetClass dlr:Amenity ;
+    sh:property[
+        sh:path [ sh:alternativePath ( dlr:nearestCounter [ sh:inversePath dlr:isNearestCounterFor ] ) ] ; 
+        sh:maxCount 1 ;
+        sh:class dlr:FootfallCounter ;
+        sh:message "Every amenity myst have exactly 1 footfall counter as its nearest counter" ; 
+    ] .
+
 
 dlrsh:FootfallCounterShape
     a sh:NodeShape ;
