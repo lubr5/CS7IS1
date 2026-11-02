@@ -17,21 +17,21 @@ SHAPES FILE - LUCIA <br>
 TARGETS - TBA <br>
 CONSTRAINTS - TBA <br>
 
-_Instance 1: shacl/X.ttl - <descriptive text>_ <br>
-_Instance 2: shacl/X.ttl - <descriptive text>_ <br>
-_Instance 3: shacl/X.ttl - <descriptive text>_ <br>
+_Instance 1: shacl/X.ttl - [descriptive text]_ <br>
+_Instance 2: shacl/X.ttl - [descriptive text]_ <br>
+_Instance 3: shacl/X.ttl - [descriptive text]_ <br>
 
 
 ### 5. Create at least 7 queries on the data w/ SPARQL
 IN PROG - FINN & DYLAN <br>
 _Query 1: sparql/footfallAtEachPark.rq - The entire footfall at each park, based on the nearest footfall counter_
 <img width="1528" height="519" alt="image" src="https://github.com/user-attachments/assets/d31d5b97-c9d2-4ce7-9d63-fb3749e2c85a" /> <br>
-_Query 2: sparql/X.rq - <descriptive text>_ <br>
-_Query 3: sparql/X.rq - <descriptive text>_ <br>
-_Query 4: sparql/X.rq - <descriptive text> _ <br>
-_Query 5: sparql/X.rq - <descriptive text>_ <br>
-_Query 6: sparql/X.rq - <descriptive text>_ <br>
-_Query 7: sparql/X.rq - <descriptive text>_ <br>
+_Query 2: sparql/X.rq - [descriptivetext]_ <br>
+_Query 3: sparql/X.rq - [descriptivetext]_ <br>
+_Query 4: sparql/X.rq - [descriptive text]_ <br>
+_Query 5: sparql/X.rq - [descriptive text]_ <br>
+_Query 6: sparql/X.rq - [descriptive text]_ <br>
+_Query 7: sparql/X.rq - descriptive text]_ <br>
 
 ### 6. PDF report of work
 TODO
