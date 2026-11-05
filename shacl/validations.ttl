@@ -35,7 +35,7 @@ dlrsh:AmenityShape
     rdfs:comment "Describes what a valid dlr:Amenity instance looks like" ;
     sh:targetClass dlr:Amenity ;
     sh:property[
-        sh:path [ sh:alternativePath ( dlr:nearestCounter [ sh:inversePath dlr:isNearestCounterFor ] ) ] ; 
+        sh:path dlr:nearestCounter ;
         sh:maxCount 1 ;
         sh:class dlr:FootfallCounter ;
         sh:message "Every amenity must have exactly 1 footfall counter as its nearest counter" ; 

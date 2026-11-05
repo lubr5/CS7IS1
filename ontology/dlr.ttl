@@ -89,7 +89,6 @@ dlr:nearestCounter a owl:ObjectProperty ;
 dlr:isNearestCounterFor a owl:ObjectProperty ;
     rdfs:label "is nearest counter for" ;
     rdfs:comment "The amenity that this footfall counter is closest to." ;
-    owl:inverseOf dlr:nearestCounter ;
     rdfs:domain dlr:FootfallCounter ;
     rdfs:range dlr:Amenity .
 
