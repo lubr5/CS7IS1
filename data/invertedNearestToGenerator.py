@@ -7,7 +7,8 @@ from nearToGenerator import AMENITIES, ROOT, haversine_m, load_amenities
 
 OUT = ROOT / "data" / "csv" / "invertedNearestTo.csv"
 # All 16 counters
-COUNTERS = ROOT / "data" / "csv" / "dlr_footfallCounterLocations.csv"
+# Only the 7 counters that are in the graph (same list as counters.ttl)
+COUNTERS = ROOT / "rml" / "sources" / "counters.csv"
 
 
 def load_all_counters():
