@@ -1,0 +1,102 @@
+Validation Report
+Conforms: False
+Results (15):
+Constraint Violation in ClassConstraintComponent (http://www.w3.org/ns/shacl#ClassConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class dlr:FootfallCounter ; sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("Every amenity must have exactly 1 footfall counter as its nearest counter") ; sh:path [ sh:alternativePath ( dlr:nearestCounter [ sh:inversePath dlr:isNearestCounterFor ] ) ] ]
+	Focus Node: <http://example.org/dlr/id/leisurecentre/1>
+	Value Node: <http://example.org/dlr/id/counter/10>
+	Result Path: [ sh:alternativePath ( dlr:nearestCounter [ sh:inversePath dlr:isNearestCounterFor ] ) ]
+	Message: Every amenity must have exactly 1 footfall counter as its nearest counter
+Constraint Violation in ClassConstraintComponent (http://www.w3.org/ns/shacl#ClassConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class dlr:FootfallCounter ; sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("Every amenity must have exactly 1 footfall counter as its nearest counter") ; sh:path [ sh:alternativePath ( dlr:nearestCounter [ sh:inversePath dlr:isNearestCounterFor ] ) ] ]
+	Focus Node: <http://example.org/dlr/id/leisurecentre/1>
+	Value Node: <http://example.org/dlr/id/counter/11>
+	Result Path: [ sh:alternativePath ( dlr:nearestCounter [ sh:inversePath dlr:isNearestCounterFor ] ) ]
+	Message: Every amenity must have exactly 1 footfall counter as its nearest counter
+Constraint Violation in ClassConstraintComponent (http://www.w3.org/ns/shacl#ClassConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class dlr:FootfallCounter ; sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("Every amenity must have exactly 1 footfall counter as its nearest counter") ; sh:path [ sh:alternativePath ( dlr:nearestCounter [ sh:inversePath dlr:isNearestCounterFor ] ) ] ]
+	Focus Node: <http://example.org/dlr/id/park/10>
+	Value Node: <http://example.org/dlr/id/counter/14>
+	Result Path: [ sh:alternativePath ( dlr:nearestCounter [ sh:inversePath dlr:isNearestCounterFor ] ) ]
+	Message: Every amenity must have exactly 1 footfall counter as its nearest counter
+Constraint Violation in ClassConstraintComponent (http://www.w3.org/ns/shacl#ClassConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class dlr:FootfallCounter ; sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("Every amenity must have exactly 1 footfall counter as its nearest counter") ; sh:path [ sh:alternativePath ( dlr:nearestCounter [ sh:inversePath dlr:isNearestCounterFor ] ) ] ]
+	Focus Node: <http://example.org/dlr/id/park/10>
+	Value Node: <http://example.org/dlr/id/counter/5>
+	Result Path: [ sh:alternativePath ( dlr:nearestCounter [ sh:inversePath dlr:isNearestCounterFor ] ) ]
+	Message: Every amenity must have exactly 1 footfall counter as its nearest counter
+Constraint Violation in ClassConstraintComponent (http://www.w3.org/ns/shacl#ClassConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class dlr:FootfallCounter ; sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("Every amenity must have exactly 1 footfall counter as its nearest counter") ; sh:path [ sh:alternativePath ( dlr:nearestCounter [ sh:inversePath dlr:isNearestCounterFor ] ) ] ]
+	Focus Node: <http://example.org/dlr/id/park/10>
+	Value Node: <http://example.org/dlr/id/counter/6>
+	Result Path: [ sh:alternativePath ( dlr:nearestCounter [ sh:inversePath dlr:isNearestCounterFor ] ) ]
+	Message: Every amenity must have exactly 1 footfall counter as its nearest counter
+Constraint Violation in ClassConstraintComponent (http://www.w3.org/ns/shacl#ClassConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class dlr:FootfallCounter ; sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("Every amenity must have exactly 1 footfall counter as its nearest counter") ; sh:path [ sh:alternativePath ( dlr:nearestCounter [ sh:inversePath dlr:isNearestCounterFor ] ) ] ]
+	Focus Node: <http://example.org/dlr/id/park/15>
+	Value Node: <http://example.org/dlr/id/counter/9>
+	Result Path: [ sh:alternativePath ( dlr:nearestCounter [ sh:inversePath dlr:isNearestCounterFor ] ) ]
+	Message: Every amenity must have exactly 1 footfall counter as its nearest counter
+Constraint Violation in ClassConstraintComponent (http://www.w3.org/ns/shacl#ClassConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class dlr:FootfallCounter ; sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("Every amenity must have exactly 1 footfall counter as its nearest counter") ; sh:path [ sh:alternativePath ( dlr:nearestCounter [ sh:inversePath dlr:isNearestCounterFor ] ) ] ]
+	Focus Node: <http://example.org/dlr/id/park/2>
+	Value Node: <http://example.org/dlr/id/counter/2>
+	Result Path: [ sh:alternativePath ( dlr:nearestCounter [ sh:inversePath dlr:isNearestCounterFor ] ) ]
+	Message: Every amenity must have exactly 1 footfall counter as its nearest counter
+Constraint Violation in ClassConstraintComponent (http://www.w3.org/ns/shacl#ClassConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class dlr:FootfallCounter ; sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("Every amenity must have exactly 1 footfall counter as its nearest counter") ; sh:path [ sh:alternativePath ( dlr:nearestCounter [ sh:inversePath dlr:isNearestCounterFor ] ) ] ]
+	Focus Node: <http://example.org/dlr/id/park/2>
+	Value Node: <http://example.org/dlr/id/counter/3>
+	Result Path: [ sh:alternativePath ( dlr:nearestCounter [ sh:inversePath dlr:isNearestCounterFor ] ) ]
+	Message: Every amenity must have exactly 1 footfall counter as its nearest counter
+Constraint Violation in ClassConstraintComponent (http://www.w3.org/ns/shacl#ClassConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class dlr:FootfallCounter ; sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("Every amenity must have exactly 1 footfall counter as its nearest counter") ; sh:path [ sh:alternativePath ( dlr:nearestCounter [ sh:inversePath dlr:isNearestCounterFor ] ) ] ]
+	Focus Node: <http://example.org/dlr/id/park/6>
+	Value Node: <http://example.org/dlr/id/counter/7>
+	Result Path: [ sh:alternativePath ( dlr:nearestCounter [ sh:inversePath dlr:isNearestCounterFor ] ) ]
+	Message: Every amenity must have exactly 1 footfall counter as its nearest counter
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class dlr:FootfallCounter ; sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("Every amenity must have exactly 1 footfall counter as its nearest counter") ; sh:path [ sh:alternativePath ( dlr:nearestCounter [ sh:inversePath dlr:isNearestCounterFor ] ) ] ]
+	Focus Node: <http://example.org/dlr/id/leisurecentre/1>
+	Result Path: [ sh:alternativePath ( dlr:nearestCounter [ sh:inversePath dlr:isNearestCounterFor ] ) ]
+	Message: Every amenity must have exactly 1 footfall counter as its nearest counter
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class dlr:FootfallCounter ; sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("Every amenity must have exactly 1 footfall counter as its nearest counter") ; sh:path [ sh:alternativePath ( dlr:nearestCounter [ sh:inversePath dlr:isNearestCounterFor ] ) ] ]
+	Focus Node: <http://example.org/dlr/id/leisurecentre/5>
+	Result Path: [ sh:alternativePath ( dlr:nearestCounter [ sh:inversePath dlr:isNearestCounterFor ] ) ]
+	Message: Every amenity must have exactly 1 footfall counter as its nearest counter
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class dlr:FootfallCounter ; sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("Every amenity must have exactly 1 footfall counter as its nearest counter") ; sh:path [ sh:alternativePath ( dlr:nearestCounter [ sh:inversePath dlr:isNearestCounterFor ] ) ] ]
+	Focus Node: <http://example.org/dlr/id/park/10>
+	Result Path: [ sh:alternativePath ( dlr:nearestCounter [ sh:inversePath dlr:isNearestCounterFor ] ) ]
+	Message: Every amenity must have exactly 1 footfall counter as its nearest counter
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class dlr:FootfallCounter ; sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("Every amenity must have exactly 1 footfall counter as its nearest counter") ; sh:path [ sh:alternativePath ( dlr:nearestCounter [ sh:inversePath dlr:isNearestCounterFor ] ) ] ]
+	Focus Node: <http://example.org/dlr/id/park/15>
+	Result Path: [ sh:alternativePath ( dlr:nearestCounter [ sh:inversePath dlr:isNearestCounterFor ] ) ]
+	Message: Every amenity must have exactly 1 footfall counter as its nearest counter
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class dlr:FootfallCounter ; sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("Every amenity must have exactly 1 footfall counter as its nearest counter") ; sh:path [ sh:alternativePath ( dlr:nearestCounter [ sh:inversePath dlr:isNearestCounterFor ] ) ] ]
+	Focus Node: <http://example.org/dlr/id/park/2>
+	Result Path: [ sh:alternativePath ( dlr:nearestCounter [ sh:inversePath dlr:isNearestCounterFor ] ) ]
+	Message: Every amenity must have exactly 1 footfall counter as its nearest counter
+Constraint Violation in MaxCountConstraintComponent (http://www.w3.org/ns/shacl#MaxCountConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class dlr:FootfallCounter ; sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("Every amenity must have exactly 1 footfall counter as its nearest counter") ; sh:path [ sh:alternativePath ( dlr:nearestCounter [ sh:inversePath dlr:isNearestCounterFor ] ) ] ]
+	Focus Node: <http://example.org/dlr/id/park/6>
+	Result Path: [ sh:alternativePath ( dlr:nearestCounter [ sh:inversePath dlr:isNearestCounterFor ] ) ]
+	Message: Every amenity must have exactly 1 footfall counter as its nearest counter
