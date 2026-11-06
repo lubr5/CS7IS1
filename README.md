@@ -13,7 +13,7 @@ Design Doc Link: https://docs.google.com/document/d/1unlc_5MTcr2ldhm9-gVFyPqsqi9
 ✔️  - SCOTT & OLLIE
 
 ### 4. Create at least 3 instance validations w/ SHACL
-✔️ - LUCIA 
+✔️ - LUCIA & FINN <br>
 shacl/validations.ttl <br>
 
 _Validation 1: Validates that all the classes are correctly structured_ <br>
@@ -35,6 +35,9 @@ Validation 2 caught a **real** issue in the ontology on 2 Nov 2026 - see termina
 `pyshacl -s shacl/validations.ttl -e ontology/dlr.ttl -df turtle /tmp/all_data.ttl | awk '/^Constraint Violation/ {c=$4; sub(/Component.*/,"",c)} /Focus Node:/ {f=$3} /Value Node:/ {v=$3} /Message:/ {printf "%-18s %-30s %s\n", c, f, (v==""?"-":v); v=""}' | sed 's#<http://example.org/dlr/id/##g; s#>##g' | sort`
 <img width="501" height="356" alt="image" src="https://github.com/user-attachments/assets/40a29ddf-d857-4b7c-81db-ee3b98014372" />
 
+Modifications were made on the basis of the SHACL failures to correct the ontology:
+<img width="767" height="184" alt="image" src="https://github.com/user-attachments/assets/085a8351-4411-4511-97f7-006cf6bf0242" />
+Ontology is now compliant as of 6 Nov 2026
 
 ### 5. Create at least 7 queries on the data w/ SPARQL
 IN PROG - FINN & DYLAN <br>
