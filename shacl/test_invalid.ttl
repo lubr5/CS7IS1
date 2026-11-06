@@ -1,0 +1,47 @@
+
+@prefix dlr:  <http://example.org/dlr/ontology#> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix id:   <http://example.org/dlr/id/> .
+
+# Breaks CounterLocationShape: lat and long swapped, so it is outside DLR.
+id:counter\/90 a dlr:FootfallCounter ;
+    rdfs:label "Swapped coordinates" ;
+    geo:lat -6.13 ;
+    geo:long 53.25 ;
+    dlr:dateOfOperation "2020-01-01"^^xsd:date .
+
+# Breaks CounterLocationShape's SPARQL rule: started in 2026-06, observed in 2026-01.
+id:counter\/91 a dlr:FootfallCounter ;
+    rdfs:label "Started late" ;
+    geo:lat 53.29 ;
+    geo:long -6.13 ;
+    dlr:dateOfOperation "2026-06-01"^^xsd:date .
+
+# Breaks ObservationCountsShape: 5 + 3 is not 10, and inCount is negative in the next one.
+id:observation\/91-bad-sum a dlr:FootfallObservation ;
+    dlr:recordedBy id:counter\/91 ;
+    dlr:observedAt "2026-01-01T10:00:00"^^xsd:dateTime ;
+    dlr:inCount 5 ; dlr:outCount 3 ; dlr:totalCount 10 .
+
+id:observation\/91-negative a dlr:FootfallObservation ;
+    dlr:recordedBy id:counter\/91 ;
+    dlr:observedAt "2026-07-01T10:00:00"^^xsd:dateTime ;
+    dlr:inCount -2 ; dlr:outCount 2 ; dlr:totalCount 0 .
+
+# Breaks LinkedNodeExistsShape and LocatedInShape: area/atlantis is never described.
+id:park\/99 a dlr:Park ;
+    rdfs:label "Made-up Park" ;
+    dlr:parkType "Local Park" ;
+    dlr:locatedIn id:area\/atlantis ;
+    dlr:nearestCounter id:counter\/90 .
+
+# Breaks NearToShape: a park is "near to" an observation, which makes no sense.
+id:park\/98 a dlr:Park ;
+    rdfs:label "Confused Park" ;
+    dlr:parkType "Local Park" ;
+    dlr:locatedIn id:area\/dlr ;
+    dlr:nearTo id:observation\/91-bad-sum .
+
+id:area\/dlr a dlr:Area ; rdfs:label "Dún Laoghaire-Rathdown" .
