@@ -12,7 +12,7 @@ WHERE {
         SELECT DISTINCT ?park ?counter #find park&counter pairs
         WHERE {
           ?park a dlr:Park .
-          ?park (dlr:nearestCounter | ^dlr:isNearestCounterFor) ?counter .
+          ?park dlr:nearestCounter ?counter .
         }
       }
       ?obs dlr:recordedBy ?counter ; #add up footfall for each pair
