@@ -5,11 +5,11 @@ PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
 PREFIX uom:  <http://www.opengis.net/def/uom/OGC/1.0/>
 
 # src: C.2.2.4. https://docs.ogc.org/is/22-047r1/22-047r1.html
-# 3 closest parks
-SELECT ?closestLabel
+# every park's neighbouring parks in order
+SELECT ?parkLabel ?closestLabel
 WHERE {
   ?park a dlr:Park ;
-        rdfs:label "Blackrock Park" ; #single named park
+        rdfs:label ?parkLabel ;
         geo:hasGeometry ?parkGeom .
   ?parkGeom geo:asWKT ?parkShape .
 
@@ -19,7 +19,7 @@ WHERE {
   ?closestGeom geo:asWKT ?closestShape .
 
   FILTER (?closestGeom != ?parkGeom)
+  FILTER(LANG(?parkLabel) != "ga")
   FILTER(LANG(?closestLabel) != "ga")
 }
-ORDER BY ASC (geof:distance(?parkShape, ?closestShape, uom:metre))
-LIMIT 3
+ORDER BY ?parkLabel ASC (geof:distance(?parkShape, ?closestShape, uom:metre))
