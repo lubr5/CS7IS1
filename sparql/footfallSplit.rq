@@ -1,0 +1,33 @@
+PREFIX dlr:  <http://example.org/dlr/ontology#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+# tally the ammenities a counter is nearest to. 
+# divide the counter's footfall by that tally.
+# this is the footfall split per ammenity. 
+# more ammenities is a lower share of footfall
+SELECT ?counterLabel ?sharedBy ?footfall (?footfall / ?sharedBy AS ?footfallPerAmenity) ?statement
+WHERE {
+  {
+    SELECT ?counter (COUNT(DISTINCT ?amenity) AS ?sharedBy) #amenities relying on this counter
+    WHERE {
+      ?counter dlr:isNearestCounterFor ?amenity .
+    }
+    GROUP BY ?counter
+  }
+
+  {
+    SELECT ?counter (SUM(?total) AS ?footfall)
+    WHERE {
+      ?obs dlr:recordedBy ?counter ;
+           dlr:totalCount ?total .
+    }
+    GROUP BY ?counter
+  }
+
+  ?counter a dlr:FootfallCounter ;
+           rdfs:label ?counterLabel .
+
+  BIND(CONCAT(?counterLabel, " counted ", ?footfall, " people, shared by ", ?sharedBy, " amenities") AS ?statement)
+  FILTER (?sharedBy > 1)
+}
+ORDER BY DESC(?footfallPerAmenity)
