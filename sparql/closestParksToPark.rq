@@ -1,0 +1,25 @@
+PREFIX dlr:  <http://example.org/dlr/ontology#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX geo:  <http://www.opengis.net/ont/geosparql#>
+PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX uom:  <http://www.opengis.net/def/uom/OGC/1.0/>
+
+# src: C.2.2.4. https://docs.ogc.org/is/22-047r1/22-047r1.html
+# 3 closest parks
+SELECT ?closestLabel
+WHERE {
+  ?park a dlr:Park ;
+        rdfs:label "Blackrock Park" ; #single named park
+        geo:hasGeometry ?parkGeom .
+  ?parkGeom geo:asWKT ?parkShape .
+
+  ?closest a dlr:Park ;
+           rdfs:label ?closestLabel ;
+           geo:hasGeometry ?closestGeom .
+  ?closestGeom geo:asWKT ?closestShape .
+
+  FILTER (?closestGeom != ?parkGeom)
+  FILTER(LANG(?closestLabel) != "ga")
+}
+ORDER BY ASC (geof:distance(?parkShape, ?closestShape, uom:metre))
+LIMIT 3
