@@ -47,7 +47,6 @@ dlr:FootfallObservation a owl:Class ;
     rdfs:label "Footfall Observation" ;
     rdfs:comment "For a certain timestamp, what a footfall counter observed" .
 
-# TODO we need 8 classes - there are only 6 here  i added geographic entity
 dlr:GeographicEntity a owl:Class ;
     rdfs:label "Geographic Entity" ;
     rdfs:comment "Anything with a place: an area, an amenity or a counter. " .
@@ -179,4 +178,3 @@ dlr:FootfallObservation rdfs:subClassOf [
     owl:onProperty geo:long ;
     owl:cardinality "1"^^xsd:nonNegativeInteger
 ] .
-
