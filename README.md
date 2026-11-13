@@ -41,7 +41,7 @@ Ontology is now compliant as of 6 Nov 2026
 
 ### 5. Create at least 7 queries on the data w/ SPARQL
 DYLAN <br>
-_Query 1: sparql/footfallAtEachPark.rq - The entire footfall at each park, based on the nearest footfall counter_
+_Query 1 (Lucia): sparql/footfallAtEachPark.rq - The entire footfall at each park, based on the nearest footfall counter_
 <img width="1528" height="519" alt="image" src="https://github.com/user-attachments/assets/d31d5b97-c9d2-4ce7-9d63-fb3749e2c85a" /> <br>
 _Query 2: SPARQL/amenitiesPerArea.rq - Amenities in each area + sub areas_ <br>
 <img width="2167" height="1111" alt="image" src="https://github.com/user-attachments/assets/5db68694-78de-4a93-b228-1e66bf770451" />
