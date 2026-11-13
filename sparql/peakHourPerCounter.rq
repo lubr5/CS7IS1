@@ -4,13 +4,15 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 # busiest hour each counter recorded, and when it happened
 SELECT ?counterLabel ?peakCount ?peakTime
 WHERE {
-  {
-    SELECT ?counter (MAX(?total) AS ?peakCount) #highest hourly count per counter
-    WHERE {
-      ?obs dlr:recordedBy ?counter ;
-           dlr:totalCount ?total . 
+  OPTIONAL {
+    {
+      SELECT ?counter (MAX(?total) AS ?peakCount) #highest hourly count per counter
+      WHERE {
+        ?obs dlr:recordedBy ?counter ;
+            dlr:totalCount ?total . 
+      }
+      GROUP BY ?counter
     }
-    GROUP BY ?counter
   }
 
   ?obs dlr:recordedBy ?counter ;
