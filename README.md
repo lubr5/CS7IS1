@@ -40,15 +40,15 @@ Modifications were made on the basis of the SHACL failures to correct the ontolo
 Ontology is now compliant as of 6 Nov 2026
 
 ### 5. Create at least 7 queries on the data w/ SPARQL
-IN PROG - FINN & DYLAN <br>
+DYLAN <br>
 _Query 1: sparql/footfallAtEachPark.rq - The entire footfall at each park, based on the nearest footfall counter_
 <img width="1528" height="519" alt="image" src="https://github.com/user-attachments/assets/d31d5b97-c9d2-4ce7-9d63-fb3749e2c85a" /> <br>
-_Query 2: sparql/X.rq - [descriptivetext]_ <br>
-_Query 3: sparql/X.rq - [descriptivetext]_ <br>
-_Query 4: sparql/X.rq - [descriptive text]_ <br>
-_Query 5: sparql/X.rq - [descriptive text]_ <br>
-_Query 6: sparql/X.rq - [descriptive text]_ <br>
-_Query 7: sparql/X.rq - descriptive text]_ <br>
+_Query 2: SPARQL/amenitiesPerArea.rq - Amenities in each area + sub areas_ <br>
+_Query 3: SPARQL/closestParksToPark.rq - Each park's neighbouring parks in order of distance_ <br>
+_Query 4: SPARQL/counterInOutTotals.rq - All time in, out and total counts per footfall counter_ <br>
+_Query 5: SPARQL/footfallSplit.rq - A counter's footfall divided between the amenities it is nearest to_ <br>
+_Query 6: SPARQL/infrastructureInsidePark.rq - Infrastructure located inside each park (w/ geosparql)_ <br>
+_Query 7: SPARQL/peakHourPerCounter.rq - the busiest hour each counter recorded_ <br>
 
 ### 6. PDF report of work
 TODO
