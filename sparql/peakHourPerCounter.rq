@@ -1,0 +1,23 @@
+PREFIX dlr:  <http://example.org/dlr/ontology#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+# busiest hour each counter recorded, and when it happened
+SELECT ?counterLabel ?peakCount ?peakTime
+WHERE {
+  {
+    SELECT ?counter (MAX(?total) AS ?peakCount) #highest hourly count per counter
+    WHERE {
+      ?obs dlr:recordedBy ?counter ;
+           dlr:totalCount ?total . 
+    }
+    GROUP BY ?counter
+  }
+
+  ?obs dlr:recordedBy ?counter ;
+       dlr:totalCount ?peakCount ; #find the hour that matches the peak
+       dlr:observedAt ?peakTime .
+
+  ?counter a dlr:FootfallCounter ;
+           rdfs:label ?counterLabel .
+}
+ORDER BY DESC(?peakCount)

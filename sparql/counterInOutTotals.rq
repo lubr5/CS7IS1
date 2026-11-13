@@ -1,0 +1,17 @@
+PREFIX dlr:  <http://example.org/dlr/ontology#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+# all time in / out and total counts per counter
+SELECT ?counterLabel (SUM(?in) AS ?totalIn) (SUM(?out) AS ?totalOut) (SUM(?total) AS ?totalAll)
+WHERE {
+  ?counter a dlr:FootfallCounter ;
+           rdfs:label ?counterLabel .
+
+  ?obs dlr:recordedBy ?counter ;
+       dlr:totalCount ?total .
+
+  OPTIONAL { ?obs dlr:inCount ?in }   #one way counters
+  OPTIONAL { ?obs dlr:outCount ?out }
+}
+GROUP BY ?counterLabel
+ORDER BY DESC(?totalAll)
