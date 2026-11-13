@@ -1,0 +1,16 @@
+PREFIX dlr:  <http://example.org/dlr/ontology#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+# amenities in each area, counting those in sub areas too
+SELECT ?areaLabel (COUNT(DISTINCT ?amenity) AS ?amenities) (GROUP_CONCAT(DISTINCT ?amenityLabel; separator=" | ") AS ?amenityNames)
+WHERE {
+  ?amenity dlr:locatedIn+ ?area ; #+ follows locatedIn up the area hierarchy
+           rdfs:label ?amenityLabel .
+
+  ?area a dlr:Area ;
+        rdfs:label ?areaLabel .
+
+  FILTER(LANG(?amenityLabel) != "ga")
+}
+GROUP BY ?areaLabel
+ORDER BY DESC(?amenities)

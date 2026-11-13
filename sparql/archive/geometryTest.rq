@@ -1,0 +1,13 @@
+PREFIX dlr:  <http://example.org/dlr/ontology#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX geo:  <http://www.opengis.net/ont/geosparql#>
+
+#see every parks geometry
+SELECT ?parkLabel ?wkt
+WHERE {
+  ?park a dlr:Park ;
+        rdfs:label ?parkLabel ;
+        geo:hasGeometry/geo:asWKT ?wkt .
+  FILTER(LANG(?parkLabel) != "ga")
+}
+ORDER BY ?parkNames
