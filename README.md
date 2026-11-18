@@ -4,16 +4,12 @@
 Design Doc Link: https://docs.google.com/document/d/1unlc_5MTcr2ldhm9-gVFyPqsqi90dCOrYPh6GVP0GxI/edit?tab=t.0 
 
 ### 1. Data Cleanup
-✔️ - LUCIA & OLLIE
 
 ### 2. Implement ontology that defines KG schema
-✔️  - LUCIA & OLLIE
 
 ### 3. Create at least 30 instance triples w/ RML mapping
-✔️  - SCOTT & OLLIE
 
 ### 4. Create at least 3 instance validations w/ SHACL
-✔️ - LUCIA & FINN <br>
 shacl/validations.ttl <br>
 
 _Validation 1: Validates that all the classes are correctly structured_ <br>
@@ -56,10 +52,3 @@ _Query 6: SPARQL/infrastructureInsidePark.rq - Infrastructure located inside eac
 <img width="1061" height="382" alt="Screenshot 2026-11-13 150729" src="https://github.com/user-attachments/assets/040d31b7-0420-4d8d-8a80-d0c57e665e45" />
 _Query 7: SPARQL/peakHourPerCounter.rq - the busiest hour each counter recorded_ <br>
 <img width="2127" height="447" alt="image" src="https://github.com/user-attachments/assets/326667f0-0dc9-4d09-b32b-e39d1f4a15c8" />
-
-
-### 6. PDF report of work
-TODO
-
-### 7. Everything Visualised on GraphDB
-PARTIALLY DONE - LUCIA
