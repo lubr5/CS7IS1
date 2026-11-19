@@ -3,13 +3,7 @@
 
 Design Doc Link: https://docs.google.com/document/d/1unlc_5MTcr2ldhm9-gVFyPqsqi90dCOrYPh6GVP0GxI/edit?tab=t.0 
 
-### 1. Data Cleanup
-
-### 2. Implement ontology that defines KG schema
-
-### 3. Create at least 30 instance triples w/ RML mapping
-
-### 4. Create at least 3 instance validations w/ SHACL
+### Create at least 3 instance validations w/ SHACL
 shacl/validations.ttl <br>
 
 _Validation 1: Validates that all the classes are correctly structured_ <br>
@@ -35,7 +29,7 @@ Modifications were made on the basis of the SHACL failures to correct the ontolo
 <img width="767" height="184" alt="image" src="https://github.com/user-attachments/assets/085a8351-4411-4511-97f7-006cf6bf0242" />
 Ontology is now compliant as of 6 Nov 2026
 
-### 5. Create at least 7 queries on the data w/ SPARQL
+### Create at least 7 queries on the data w/ SPARQL
 DYLAN <br>
 _Query 1 (Lucia): sparql/footfallAtEachPark.rq - The entire footfall at each park, based on the nearest footfall counter_
 <img width="1528" height="519" alt="image" src="https://github.com/user-attachments/assets/d31d5b97-c9d2-4ce7-9d63-fb3749e2c85a" /> <br>
