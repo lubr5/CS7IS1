@@ -3,17 +3,7 @@
 
 Design Doc Link: https://docs.google.com/document/d/1unlc_5MTcr2ldhm9-gVFyPqsqi90dCOrYPh6GVP0GxI/edit?tab=t.0 
 
-### 1. Data Cleanup
-✔️ - LUCIA & OLLIE
-
-### 2. Implement ontology that defines KG schema
-✔️  - LUCIA & OLLIE
-
-### 3. Create at least 30 instance triples w/ RML mapping
-✔️  - SCOTT & OLLIE
-
-### 4. Create at least 3 instance validations w/ SHACL
-✔️ - LUCIA & FINN <br>
+### Create at least 3 instance validations w/ SHACL
 shacl/validations.ttl <br>
 
 _Validation 1: Validates that all the classes are correctly structured_ <br>
@@ -39,19 +29,20 @@ Modifications were made on the basis of the SHACL failures to correct the ontolo
 <img width="767" height="184" alt="image" src="https://github.com/user-attachments/assets/085a8351-4411-4511-97f7-006cf6bf0242" />
 Ontology is now compliant as of 6 Nov 2026
 
-### 5. Create at least 7 queries on the data w/ SPARQL
+### Create at least 7 queries on the data w/ SPARQL
 DYLAN <br>
-_Query 1: sparql/footfallAtEachPark.rq - The entire footfall at each park, based on the nearest footfall counter_
+_Query 1 (Lucia): sparql/footfallAtEachPark.rq - The entire footfall at each park, based on the nearest footfall counter_
 <img width="1528" height="519" alt="image" src="https://github.com/user-attachments/assets/d31d5b97-c9d2-4ce7-9d63-fb3749e2c85a" /> <br>
 _Query 2: SPARQL/amenitiesPerArea.rq - Amenities in each area + sub areas_ <br>
+<img width="2167" height="1111" alt="image" src="https://github.com/user-attachments/assets/5db68694-78de-4a93-b228-1e66bf770451" />
 _Query 3: SPARQL/closestParksToPark.rq - Each park's neighbouring parks in order of distance_ <br>
+(Example for a single park)
+<img width="2125" height="795" alt="image" src="https://github.com/user-attachments/assets/307ef9cc-c987-414b-9078-7d8cc4371465" />
 _Query 4: SPARQL/counterInOutTotals.rq - All time in, out and total counts per footfall counter_ <br>
+<img width="2121" height="333" alt="image" src="https://github.com/user-attachments/assets/567ff071-b29e-421d-9343-2bfc102b8778" />
 _Query 5: SPARQL/footfallSplit.rq - A counter's footfall divided between the amenities it is nearest to_ <br>
+<img width="2124" height="442" alt="image" src="https://github.com/user-attachments/assets/0185b89c-d9dc-430c-b619-384876951904" />
 _Query 6: SPARQL/infrastructureInsidePark.rq - Infrastructure located inside each park (w/ geosparql)_ <br>
+<img width="1061" height="382" alt="Screenshot 2026-11-13 150729" src="https://github.com/user-attachments/assets/040d31b7-0420-4d8d-8a80-d0c57e665e45" />
 _Query 7: SPARQL/peakHourPerCounter.rq - the busiest hour each counter recorded_ <br>
-
-### 6. PDF report of work
-TODO
-
-### 7. Everything Visualised on GraphDB
-PARTIALLY DONE - LUCIA
+<img width="2127" height="447" alt="image" src="https://github.com/user-attachments/assets/326667f0-0dc9-4d09-b32b-e39d1f4a15c8" />
