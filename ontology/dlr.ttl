@@ -6,6 +6,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix schema:  <https://schema.org/> .
 @prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix gsp:     <http://www.opengis.net/ont/geosparql#> .
 @prefix dlr:     <http://example.org/dlr/ontology#> .
 
 <http://example.org/dlr/ontology> a owl:Ontology ;
@@ -17,6 +18,7 @@
 # Classes------------------------
 
 dlr:Amenity a owl:Class ;
+    rdfs:subClassOf gsp:Feature ;
     rdfs:label "Amenity" ;
     rdfs:comment "A public amenity for example a park or sports facility" .
 
@@ -40,6 +42,7 @@ dlr:Area a owl:Class ;
     rdfs:comment "A region within DLR" .
 
 dlr:FootfallCounter a owl:Class ;
+    rdfs:subClassOf gsp:Feature ;
     rdfs:label "Footfall Counter" ;
     rdfs:comment "A device which provides number of people walking past a certain area" .
 
